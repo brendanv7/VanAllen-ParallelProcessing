@@ -1,0 +1,5 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/bin/java ...
+parent: 1 8 3
+child: 0 11
+
+Process finished with exit code 0

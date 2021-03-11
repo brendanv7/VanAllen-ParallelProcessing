@@ -1,0 +1,17 @@
+Excercise Answers:
+
+1. db.getCollectionNames()
+2. db.unicorns.count()
+3. db.unicorns.find()
+4. db.unicorns.find({name:‘Pilot’})
+5. db.unicorns.find({gender:‘f’})
+6. db.unicorns.find({gender:'m', weight:{$gt: 600}})
+7. db.unicorns.find({},{name:1, weight:1})
+8. db.unicorns.find({gender:'m'}, {name: 1}).sort({weight:-1}).limit(2).skip(1)
+9. db.unicorns.count({weight: {$lt: 600}})
+10. db.unicorns.insert({name: 'Lois', gender: 'f', vampires:0})
+11. db.unicorns.update({_id: ObjectId(“5c8dec0a902f1f6bf9101937”)}, {weight:55})
+12. db.unicorns.update({_id:ObjectId(“5c8dec0a902f1f6bf9101937”)}, {$set: {name: 'Lois', gender: 'f', vampires: 0}})
+13. db.unicorns.update({name: 'Ulysee'}, {$inc: {vampires: 1}}, true)
+14. db.unicorns.update({gender: 'm'}, {$push: {loves: 'orange'}}, false, true)
+15. db.unicorns.remove({name: 'Horny'})

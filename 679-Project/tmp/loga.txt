@@ -1,0 +1,14 @@
+03:31:40 INFO  main 0 Relay:57 - relaying all messages to 192.168.1.82:8000
+03:31:40 INFO  main 4 Relay:62 - listening for replies on 192.168.1.153:8004
+03:31:40 INFO  Thread-0 26 ActorA$:39 - started
+03:31:40 INFO  Thread-1 313 Relay:69 - relay daemon started id = 12 for callback actor ActorA (id=11)
+03:31:40 INFO  Thread-1 317 Relay:73 - waiting to accept reply connection on port = 8004
+03:31:40 INFO  main 324 Relay:99 - relaying Y(hello there from ActorA (id=11)) as Task(192.168.1.153:8004,Y(hello there from ActorA (id=11)),11,0)
+03:31:40 INFO  main 358 Relay:113 - successfully sent Task(192.168.1.153:8004,Y(hello there from ActorA (id=11)),11,0) to 192.168.1.82:8000
+03:31:42 INFO  Thread-1 1811 Relay:76 - reply connection accepted from host 192.168.1.82
+03:31:42 INFO  Thread-1 1812 Relay:73 - waiting to accept reply connection on port = 8004
+03:31:42 INFO  Thread-2 1812 Ice:40 - ice started (id=15)
+03:31:42 INFO  Thread-2 1818 Ice:48 - received inbound message = Task(192.168.1.82:0,back at ya!,-1,1)
+03:31:42 INFO  Thread-2 1818 Ice:49 - actor handler = ActorA (id=11)
+03:31:42 INFO  Thread-2 1821 Ice:53 - successfully relayed Task(192.168.1.82:0,back at ya!,-1,1)
+03:31:42 INFO  Thread-0 1821 ActorA$:45 - got reply = Task(192.168.1.82:0,back at ya!,-1,1)

@@ -1,0 +1,26 @@
+03:23:25 INFO  Thread-1 0 Remote:50 - remote daemon id = 13 for call-forward actor ActorB (id=12) port = 9000
+03:23:25 INFO  Thread-1 9 Remote:54 - waiting to accept connection on port 9000
+03:23:25 INFO  Thread-0 14 ActorB$:42 - got task = Task(192.168.1.153:0,testing 1-2-3,12,0)
+03:23:25 INFO  Thread-0 15 ActorB$:54 - got testing 1-2-3
+03:23:42 INFO  main 0 Relay:57 - relaying all messages to 192.168.1.153:9000
+03:23:42 INFO  main 5 Relay:62 - listening for replies on 192.168.1.153:9004
+03:23:42 INFO  Thread-0 42 ActorA$:39 - started
+03:23:42 INFO  Thread-1 297 Relay:69 - relay daemon started id = 13 for callback actor ActorA (id=11)
+03:23:42 INFO  Thread-1 301 Relay:73 - waiting to accept reply connection on port = 9004
+03:23:42 INFO  main 350 Relay:99 - relaying Y(hello there from ActorA (id=11)) as Task(192.168.1.153:9004,Y(hello there from ActorA (id=11)),11,0)
+03:23:42 INFO  Thread-1 16816 Remote:57 - got connection from 192.168.1.153
+03:23:42 INFO  Thread-1 16818 Remote:54 - waiting to accept connection on port 9000
+03:23:42 INFO  Thread-2 16818 Ice:40 - ice started (id=15)
+03:23:42 INFO  main 396 Relay:113 - successfully sent Task(192.168.1.153:9004,Y(hello there from ActorA (id=11)),11,0) to 192.168.1.153:9000
+03:23:42 INFO  Thread-2 16881 Ice:48 - received inbound message = Task(192.168.1.153:9004,Y(hello there from ActorA (id=11)),11,0)
+03:23:42 INFO  Thread-2 16882 Ice:49 - actor handler = ActorB (id=12)
+03:23:42 INFO  Thread-2 16882 Ice:53 - successfully relayed Task(192.168.1.153:9004,Y(hello there from ActorA (id=11)),11,0)
+03:23:42 INFO  Thread-0 16882 ActorB$:42 - got task = Task(192.168.1.153:9004,Y(hello there from ActorA (id=11)),11,0)
+03:23:42 INFO  Thread-0 16883 ActorB$:48 - payload is Y = hello there from ActorA (id=11)
+03:23:42 INFO  Thread-1 425 Relay:76 - reply connection accepted from host 192.168.1.153
+03:23:42 INFO  Thread-1 427 Relay:73 - waiting to accept reply connection on port = 9004
+03:23:42 INFO  Thread-2 427 Ice:40 - ice started (id=15)
+03:23:42 INFO  Thread-2 436 Ice:48 - received inbound message = Task(192.168.1.153:0,back at ya!,-1,1)
+03:23:42 INFO  Thread-2 436 Ice:49 - actor handler = ActorA (id=11)
+03:23:42 INFO  Thread-2 442 Ice:53 - successfully relayed Task(192.168.1.153:0,back at ya!,-1,1)
+03:23:42 INFO  Thread-0 442 ActorA$:45 - got reply = Task(192.168.1.153:0,back at ya!,-1,1)

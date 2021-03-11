@@ -1,0 +1,1133 @@
+16:15:21 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+16:15:21 INFO  main 28 Relay:62 - listening for replies on 192.168.1.153:8003
+16:15:21 INFO  main 28 Relay:57 - relaying all messages to localhost:9000
+16:15:21 INFO  main 29 Relay:62 - listening for replies on 192.168.1.153:9004
+16:15:21 INFO  Thread-1 280 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+16:15:21 INFO  Thread-1 282 Relay:73 - waiting to accept reply connection on port = 8003
+16:15:22 INFO  Thread-2 536 Relay:69 - relay daemon started id = 14 for callback actor ParaDispatcher (id=11)
+16:15:22 INFO  Thread-2 536 Relay:73 - waiting to accept reply connection on port = 9004
+16:16:38 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+16:16:38 INFO  main 16 Relay:62 - listening for replies on 192.168.1.153:8004
+16:16:38 INFO  main 16 Relay:57 - relaying all messages to localhost:9000
+16:16:38 INFO  main 16 Relay:62 - listening for replies on 192.168.1.153:9005
+16:16:38 INFO  Thread-1 345 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+16:16:38 INFO  Thread-1 347 Relay:73 - waiting to accept reply connection on port = 8004
+16:16:38 INFO  Thread-2 521 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+16:16:38 INFO  Thread-2 521 Relay:73 - waiting to accept reply connection on port = 9005
+20:33:54 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+20:33:54 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+20:33:54 INFO  Thread-1 6 Remote:54 - waiting to accept connection on port 8000
+20:33:54 INFO  Thread-3 7 Remote:54 - waiting to accept connection on port 9000
+20:35:40 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+20:35:40 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+20:35:40 INFO  Thread-1 4 Remote:54 - waiting to accept connection on port 8000
+20:35:40 INFO  Thread-3 5 Remote:54 - waiting to accept connection on port 9000
+20:35:40 INFO  Thread-2 279 ParaWorker$:49 - started ParaWorker (id=13)
+20:35:40 INFO  Thread-0 280 ParaWorker$:49 - started ParaWorker (id=11)
+20:35:51 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+20:35:51 INFO  main 13 Relay:62 - listening for replies on 192.168.1.153:8004
+20:35:51 INFO  main 14 Relay:57 - relaying all messages to localhost:9000
+20:35:51 INFO  main 14 Relay:62 - listening for replies on 192.168.1.153:9005
+20:35:51 INFO  Thread-1 409 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+20:35:51 INFO  Thread-1 412 Relay:73 - waiting to accept reply connection on port = 8004
+20:35:52 INFO  Thread-2 522 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+20:35:52 INFO  Thread-2 522 Relay:73 - waiting to accept reply connection on port = 9005
+20:35:52 INFO  Thread-0 845 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0)
+20:35:52 INFO  Thread-1 11822 Remote:57 - got connection from 127.0.0.1
+20:35:52 INFO  Thread-1 11823 Remote:54 - waiting to accept connection on port 8000
+20:35:52 INFO  Thread-4 11823 Ice:40 - ice started (id=17)
+20:35:52 INFO  Thread-0 856 Relay:113 - successfully sent Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+20:35:52 INFO  Thread-0 856 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0)
+20:35:52 INFO  Thread-3 11833 Remote:57 - got connection from 127.0.0.1
+20:35:52 INFO  Thread-0 857 Relay:113 - successfully sent Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0) to localhost:9000
+20:35:52 INFO  Thread-3 11833 Remote:54 - waiting to accept connection on port 9000
+20:35:52 INFO  Thread-5 11833 Ice:40 - ice started (id=18)
+20:35:52 INFO  Thread-4 11864 Ice:48 - received inbound message = Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0)
+20:35:52 INFO  Thread-5 11864 Ice:48 - received inbound message = Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0)
+20:35:52 INFO  Thread-4 11868 Ice:49 - actor handler = ParaWorker (id=11)
+20:35:52 INFO  Thread-5 11868 Ice:49 - actor handler = ParaWorker (id=13)
+20:35:52 INFO  Thread-5 11871 Ice:53 - successfully relayed Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0)
+20:35:52 INFO  Thread-4 11871 Ice:53 - successfully relayed Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0)
+20:36:52 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+20:36:52 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+20:36:52 INFO  Thread-1 4 Remote:54 - waiting to accept connection on port 8000
+20:36:52 INFO  Thread-3 5 Remote:54 - waiting to accept connection on port 9000
+20:36:52 INFO  Thread-0 272 ParaWorker$:49 - started ParaWorker (id=11)
+20:36:52 INFO  Thread-2 272 ParaWorker$:49 - started ParaWorker (id=13)
+20:36:57 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+20:36:57 INFO  main 13 Relay:62 - listening for replies on 192.168.1.153:8004
+20:36:57 INFO  main 13 Relay:57 - relaying all messages to localhost:9000
+20:36:57 INFO  main 13 Relay:62 - listening for replies on 192.168.1.153:9005
+20:36:57 INFO  Thread-1 397 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+20:36:57 INFO  Thread-1 400 Relay:73 - waiting to accept reply connection on port = 8004
+20:36:57 INFO  Thread-2 523 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+20:36:57 INFO  Thread-2 524 Relay:73 - waiting to accept reply connection on port = 9005
+20:36:57 INFO  Thread-0 830 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0)
+20:36:57 INFO  Thread-1 5605 Remote:57 - got connection from 127.0.0.1
+20:36:57 INFO  Thread-1 5606 Remote:54 - waiting to accept connection on port 8000
+20:36:57 INFO  Thread-4 5606 Ice:40 - ice started (id=17)
+20:36:57 INFO  Thread-0 841 Relay:113 - successfully sent Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+20:36:57 INFO  Thread-0 842 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0)
+20:36:57 INFO  Thread-3 5617 Remote:57 - got connection from 127.0.0.1
+20:36:57 INFO  Thread-3 5617 Remote:54 - waiting to accept connection on port 9000
+20:36:57 INFO  Thread-0 843 Relay:113 - successfully sent Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0) to localhost:9000
+20:36:57 INFO  Thread-5 5617 Ice:40 - ice started (id=18)
+20:36:57 INFO  Thread-5 5645 Ice:48 - received inbound message = Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0)
+20:36:57 INFO  Thread-5 5646 Ice:49 - actor handler = ParaWorker (id=13)
+20:36:57 INFO  Thread-4 5645 Ice:48 - received inbound message = Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0)
+20:36:57 INFO  Thread-4 5646 Ice:49 - actor handler = ParaWorker (id=11)
+20:36:57 INFO  Thread-5 5648 Ice:53 - successfully relayed Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0)
+20:36:57 INFO  Thread-4 5649 Ice:53 - successfully relayed Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0)
+20:37:05 INFO  Thread-2 8843 Relay:76 - reply connection accepted from host 192.168.1.153
+20:37:05 INFO  Thread-2 8845 Relay:73 - waiting to accept reply connection on port = 9005
+20:37:05 INFO  Thread-4 8845 Ice:40 - ice started (id=21)
+20:37:05 INFO  Thread-4 8853 Ice:48 - received inbound message = Task(192.168.1.153:0,Result(-1,0.0,0,392437771161092,392470727778447),-1,1)
+20:37:05 INFO  Thread-4 8855 Ice:49 - actor handler = ParaDispatcher (id=11)
+20:37:05 INFO  Thread-4 8856 Ice:53 - successfully relayed Task(192.168.1.153:0,Result(-1,0.0,0,392437771161092,392470727778447),-1,1)
+20:37:05 INFO  Thread-0 8856 ParaDispatcher$:69 - received reply Task(192.168.1.153:0,Result(-1,0.0,0,392437771161092,392470727778447),-1,1)
+20:37:06 INFO  Thread-1 9110 Relay:76 - reply connection accepted from host 192.168.1.153
+20:37:06 INFO  Thread-1 9110 Relay:73 - waiting to accept reply connection on port = 8004
+20:37:06 INFO  Thread-5 9110 Ice:40 - ice started (id=22)
+20:37:06 INFO  Thread-5 9111 Ice:48 - received inbound message = Task(192.168.1.153:0,Result(-1,0.0,0,392438040191119,392467573050974),-1,1)
+20:37:06 INFO  Thread-5 9111 Ice:49 - actor handler = ParaDispatcher (id=11)
+20:37:06 INFO  Thread-5 9111 Ice:53 - successfully relayed Task(192.168.1.153:0,Result(-1,0.0,0,392438040191119,392467573050974),-1,1)
+20:37:06 INFO  Thread-0 9111 ParaDispatcher$:69 - received reply Task(192.168.1.153:0,Result(-1,0.0,0,392438040191119,392467573050974),-1,1)
+20:37:53 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+20:37:53 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+20:37:53 INFO  Thread-3 4 Remote:54 - waiting to accept connection on port 9000
+20:37:53 INFO  Thread-1 5 Remote:54 - waiting to accept connection on port 8000
+20:37:54 INFO  Thread-0 270 ParaWorker$:49 - started ParaWorker (id=11)
+20:37:54 INFO  Thread-2 270 ParaWorker$:49 - started ParaWorker (id=13)
+20:37:58 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+20:37:58 INFO  main 12 Relay:62 - listening for replies on 192.168.1.153:8004
+20:37:58 INFO  main 13 Relay:57 - relaying all messages to localhost:9000
+20:37:58 INFO  main 13 Relay:62 - listening for replies on 192.168.1.153:9005
+20:37:58 INFO  Thread-1 407 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+20:37:58 INFO  Thread-1 409 Relay:73 - waiting to accept reply connection on port = 8004
+20:37:58 INFO  Thread-2 522 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+20:37:58 INFO  Thread-2 522 Relay:73 - waiting to accept reply connection on port = 9005
+20:37:59 INFO  Thread-0 786 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0)
+20:37:59 INFO  Thread-1 5335 Remote:57 - got connection from 127.0.0.1
+20:37:59 INFO  Thread-1 5336 Remote:54 - waiting to accept connection on port 8000
+20:37:59 INFO  Thread-4 5336 Ice:40 - ice started (id=17)
+20:37:59 INFO  Thread-0 797 Relay:113 - successfully sent Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+20:37:59 INFO  Thread-0 797 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0)
+20:37:59 INFO  Thread-3 5346 Remote:57 - got connection from 127.0.0.1
+20:37:59 INFO  Thread-0 798 Relay:113 - successfully sent Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0) to localhost:9000
+20:37:59 INFO  Thread-3 5358 Remote:54 - waiting to accept connection on port 9000
+20:37:59 INFO  Thread-5 5358 Ice:40 - ice started (id=18)
+20:37:59 INFO  Thread-4 5377 Ice:48 - received inbound message = Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0)
+20:37:59 INFO  Thread-5 5377 Ice:48 - received inbound message = Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0)
+20:37:59 INFO  Thread-4 5378 Ice:49 - actor handler = ParaWorker (id=11)
+20:37:59 INFO  Thread-5 5378 Ice:49 - actor handler = ParaWorker (id=13)
+20:37:59 INFO  Thread-4 5380 Ice:53 - successfully relayed Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0)
+20:37:59 INFO  Thread-5 5380 Ice:53 - successfully relayed Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0)
+20:38:07 INFO  Thread-2 9116 Relay:76 - reply connection accepted from host 192.168.1.153
+20:38:07 INFO  Thread-2 9118 Relay:73 - waiting to accept reply connection on port = 9005
+20:38:07 INFO  Thread-4 9118 Ice:40 - ice started (id=21)
+20:38:07 INFO  Thread-4 9123 Ice:48 - received inbound message = Task(192.168.1.153:0,Result(-1,0.0,0,392499213652455,392530912634718),-1,1)
+20:38:07 INFO  Thread-4 9124 Ice:49 - actor handler = ParaDispatcher (id=11)
+20:38:07 INFO  Thread-4 9125 Ice:53 - successfully relayed Task(192.168.1.153:0,Result(-1,0.0,0,392499213652455,392530912634718),-1,1)
+20:38:07 INFO  Thread-0 9125 ParaDispatcher$:69 - received reply Task(192.168.1.153:0,Result(-1,0.0,0,392499213652455,392530912634718),-1,1)
+20:38:07 INFO  Thread-1 9152 Relay:76 - reply connection accepted from host 192.168.1.153
+20:38:07 INFO  Thread-1 9152 Relay:73 - waiting to accept reply connection on port = 8004
+20:38:07 INFO  Thread-5 9152 Ice:40 - ice started (id=22)
+20:38:07 INFO  Thread-5 9153 Ice:48 - received inbound message = Task(192.168.1.153:0,Result(-1,0.0,0,392499250801974,392530613336276),-1,1)
+20:38:07 INFO  Thread-5 9153 Ice:49 - actor handler = ParaDispatcher (id=11)
+20:38:07 INFO  Thread-5 9153 Ice:53 - successfully relayed Task(192.168.1.153:0,Result(-1,0.0,0,392499250801974,392530613336276),-1,1)
+20:38:07 INFO  Thread-0 9153 ParaDispatcher$:69 - received reply Task(192.168.1.153:0,Result(-1,0.0,0,392499250801974,392530613336276),-1,1)
+20:45:39 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+20:45:39 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+20:45:39 INFO  Thread-1 4 Remote:54 - waiting to accept connection on port 8000
+20:45:39 INFO  Thread-3 5 Remote:54 - waiting to accept connection on port 9000
+20:45:39 INFO  Thread-0 272 ParaWorker$:49 - started ParaWorker (id=11)
+20:45:39 INFO  Thread-2 272 ParaWorker$:49 - started ParaWorker (id=13)
+20:45:43 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+20:45:43 INFO  main 13 Relay:62 - listening for replies on 192.168.1.153:8004
+20:45:43 INFO  main 13 Relay:57 - relaying all messages to localhost:9000
+20:45:43 INFO  main 13 Relay:62 - listening for replies on 192.168.1.153:9005
+20:45:44 INFO  Thread-1 415 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+20:45:44 INFO  Thread-1 418 Relay:73 - waiting to accept reply connection on port = 8004
+20:45:44 INFO  Thread-2 520 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+20:45:44 INFO  Thread-2 522 Relay:73 - waiting to accept reply connection on port = 9005
+20:45:44 INFO  Thread-0 800 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0)
+20:45:44 INFO  Thread-1 5224 Remote:57 - got connection from 127.0.0.1
+20:45:44 INFO  Thread-1 5225 Remote:54 - waiting to accept connection on port 8000
+20:45:44 INFO  Thread-4 5225 Ice:40 - ice started (id=17)
+20:45:44 INFO  Thread-0 811 Relay:113 - successfully sent Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+20:45:44 INFO  Thread-0 811 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0)
+20:45:44 INFO  Thread-3 5233 Remote:57 - got connection from 127.0.0.1
+20:45:44 INFO  Thread-0 812 Relay:113 - successfully sent Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0) to localhost:9000
+20:45:44 INFO  Thread-3 5234 Remote:54 - waiting to accept connection on port 9000
+20:45:44 INFO  Thread-5 5234 Ice:40 - ice started (id=18)
+20:45:44 INFO  Thread-4 5260 Ice:48 - received inbound message = Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0)
+20:45:44 INFO  Thread-5 5260 Ice:48 - received inbound message = Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0)
+20:45:44 INFO  Thread-4 5260 Ice:49 - actor handler = ParaWorker (id=11)
+20:45:44 INFO  Thread-5 5260 Ice:49 - actor handler = ParaWorker (id=13)
+20:45:44 INFO  Thread-4 5263 Ice:53 - successfully relayed Task(192.168.1.153:8004,Partition(500,0,0,true,100000),11,0)
+20:45:44 INFO  Thread-5 5263 Ice:53 - successfully relayed Task(192.168.1.153:9005,Partition(500,500,0,true,100000),11,0)
+20:45:52 INFO  Thread-1 8780 Relay:76 - reply connection accepted from host 192.168.1.153
+20:45:52 INFO  Thread-1 8788 Relay:73 - waiting to accept reply connection on port = 8004
+20:45:52 INFO  Thread-4 8788 Ice:40 - ice started (id=21)
+20:45:52 INFO  Thread-4 8793 Ice:48 - received inbound message = Task(192.168.1.153:0,Result(-1,0.0,0,392964464173896,392995038642155),-1,1)
+20:45:52 INFO  Thread-4 8794 Ice:49 - actor handler = ParaDispatcher (id=11)
+20:45:52 INFO  Thread-4 8795 Ice:53 - successfully relayed Task(192.168.1.153:0,Result(-1,0.0,0,392964464173896,392995038642155),-1,1)
+20:45:52 INFO  Thread-0 8795 ParaDispatcher$:69 - received reply Task(192.168.1.153:0,Result(-1,0.0,0,392964464173896,392995038642155),-1,1)
+20:45:52 INFO  Thread-2 8823 Relay:76 - reply connection accepted from host 192.168.1.153
+20:45:52 INFO  Thread-2 8823 Relay:73 - waiting to accept reply connection on port = 9005
+20:45:52 INFO  Thread-5 8823 Ice:40 - ice started (id=22)
+20:45:52 INFO  Thread-5 8824 Ice:48 - received inbound message = Task(192.168.1.153:0,Result(-1,0.0,0,392964507863899,392995236190927),-1,1)
+20:45:52 INFO  Thread-5 8824 Ice:49 - actor handler = ParaDispatcher (id=11)
+20:45:52 INFO  Thread-5 8824 Ice:53 - successfully relayed Task(192.168.1.153:0,Result(-1,0.0,0,392964507863899,392995236190927),-1,1)
+20:45:52 INFO  Thread-0 8824 ParaDispatcher$:69 - received reply Task(192.168.1.153:0,Result(-1,0.0,0,392964507863899,392995236190927),-1,1)
+20:45:52 INFO  Thread-0 8920 Relay:99 - relaying Partition(1000,0,0,true,100000) as Task(192.168.1.153:8004,Partition(1000,0,0,true,100000),11,0)
+20:45:52 INFO  Thread-1 13342 Remote:57 - got connection from 127.0.0.1
+20:45:52 INFO  Thread-0 8920 Relay:113 - successfully sent Task(192.168.1.153:8004,Partition(1000,0,0,true,100000),11,0) to localhost:8000
+20:45:52 INFO  Thread-1 13342 Remote:54 - waiting to accept connection on port 8000
+20:45:52 INFO  Thread-7 13342 Ice:40 - ice started (id=32)
+20:45:52 INFO  Thread-0 8921 Relay:99 - relaying Partition(1000,1000,0,true,100000) as Task(192.168.1.153:9005,Partition(1000,1000,0,true,100000),11,0)
+20:45:52 INFO  Thread-3 13343 Remote:57 - got connection from 127.0.0.1
+20:45:52 INFO  Thread-7 13343 Ice:48 - received inbound message = Task(192.168.1.153:8004,Partition(1000,0,0,true,100000),11,0)
+20:45:52 INFO  Thread-3 13343 Remote:54 - waiting to accept connection on port 9000
+20:45:52 INFO  Thread-0 8921 Relay:113 - successfully sent Task(192.168.1.153:9005,Partition(1000,1000,0,true,100000),11,0) to localhost:9000
+20:45:52 INFO  Thread-8 13343 Ice:40 - ice started (id=33)
+20:45:52 INFO  Thread-7 13343 Ice:49 - actor handler = ParaWorker (id=11)
+20:45:52 INFO  Thread-7 13344 Ice:53 - successfully relayed Task(192.168.1.153:8004,Partition(1000,0,0,true,100000),11,0)
+20:45:52 INFO  Thread-8 13344 Ice:48 - received inbound message = Task(192.168.1.153:9005,Partition(1000,1000,0,true,100000),11,0)
+20:45:52 INFO  Thread-8 13344 Ice:49 - actor handler = ParaWorker (id=13)
+20:45:52 INFO  Thread-8 13344 Ice:53 - successfully relayed Task(192.168.1.153:9005,Partition(1000,1000,0,true,100000),11,0)
+20:46:03 INFO  Thread-1 20006 Relay:76 - reply connection accepted from host 192.168.1.153
+20:46:03 INFO  Thread-1 20009 Relay:73 - waiting to accept reply connection on port = 8004
+20:46:03 INFO  Thread-6 20009 Ice:40 - ice started (id=23)
+20:46:03 INFO  Thread-6 20010 Ice:48 - received inbound message = Task(192.168.1.153:0,Result(-1,0.0,0,392975691954559,393019742202430),-1,1)
+20:46:03 INFO  Thread-6 20010 Ice:49 - actor handler = ParaDispatcher (id=11)
+20:46:03 INFO  Thread-6 20011 Ice:53 - successfully relayed Task(192.168.1.153:0,Result(-1,0.0,0,392975691954559,393019742202430),-1,1)
+20:46:03 INFO  Thread-0 20011 ParaDispatcher$:69 - received reply Task(192.168.1.153:0,Result(-1,0.0,0,392975691954559,393019742202430),-1,1)
+20:46:06 INFO  Thread-2 22423 Relay:76 - reply connection accepted from host 192.168.1.153
+20:46:06 INFO  Thread-2 22424 Relay:73 - waiting to accept reply connection on port = 9005
+20:46:06 INFO  Thread-7 22424 Ice:40 - ice started (id=24)
+20:46:06 INFO  Thread-7 22425 Ice:48 - received inbound message = Task(192.168.1.153:0,Result(-1,0.0,0,392978108758118,393021343639247),-1,1)
+20:46:06 INFO  Thread-7 22425 Ice:49 - actor handler = ParaDispatcher (id=11)
+20:46:06 INFO  Thread-7 22425 Ice:53 - successfully relayed Task(192.168.1.153:0,Result(-1,0.0,0,392978108758118,393021343639247),-1,1)
+20:46:06 INFO  Thread-0 22425 ParaDispatcher$:69 - received reply Task(192.168.1.153:0,Result(-1,0.0,0,392978108758118,393021343639247),-1,1)
+20:22:24 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+20:22:24 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+20:22:24 INFO  Thread-1 4 Remote:54 - waiting to accept connection on port 8000
+20:22:24 INFO  Thread-3 5 Remote:54 - waiting to accept connection on port 9000
+20:22:24 INFO  Thread-2 270 ParaWorker$:49 - started ParaWorker (id=13)
+20:22:24 INFO  Thread-0 270 ParaWorker$:49 - started ParaWorker (id=11)
+20:23:01 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+20:23:01 INFO  main 14 Relay:62 - listening for replies on 148.100.167.159:8004
+20:23:01 INFO  main 14 Relay:57 - relaying all messages to localhost:9000
+20:23:01 INFO  main 14 Relay:62 - listening for replies on 148.100.167.159:9005
+20:23:02 INFO  Thread-1 406 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+20:23:02 INFO  Thread-1 409 Relay:73 - waiting to accept reply connection on port = 8004
+20:23:02 INFO  Thread-2 521 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+20:23:02 INFO  Thread-2 521 Relay:73 - waiting to accept reply connection on port = 9005
+20:23:02 INFO  Thread-0 922 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+20:23:02 INFO  Thread-1 38635 Remote:57 - got connection from 127.0.0.1
+20:23:02 INFO  Thread-1 38636 Remote:54 - waiting to accept connection on port 8000
+20:23:02 INFO  Thread-4 38636 Ice:40 - ice started (id=17)
+20:23:02 INFO  Thread-0 934 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+20:23:02 INFO  Thread-0 934 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+20:23:02 INFO  Thread-3 38646 Remote:57 - got connection from 127.0.0.1
+20:23:02 INFO  Thread-3 38646 Remote:54 - waiting to accept connection on port 9000
+20:23:02 INFO  Thread-0 936 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0) to localhost:9000
+20:23:02 INFO  Thread-5 38646 Ice:40 - ice started (id=18)
+20:23:02 INFO  Thread-5 38678 Ice:48 - received inbound message = Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+20:23:02 INFO  Thread-4 38678 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+20:23:02 INFO  Thread-5 38683 Ice:49 - actor handler = ParaWorker (id=13)
+20:23:02 INFO  Thread-4 38683 Ice:49 - actor handler = ParaWorker (id=11)
+20:23:02 INFO  Thread-5 38685 Ice:53 - successfully relayed Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+20:23:02 INFO  Thread-4 38685 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+20:23:11 INFO  Thread-2 9575 Relay:76 - reply connection accepted from host 148.100.167.159
+20:23:11 INFO  Thread-2 9576 Relay:73 - waiting to accept reply connection on port = 9005
+20:23:11 INFO  Thread-4 9576 Ice:40 - ice started (id=21)
+20:23:11 INFO  Thread-4 9583 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,412903429132535,412936596529076),-1,1)
+20:23:11 INFO  Thread-4 9584 Ice:49 - actor handler = ParaDispatcher (id=11)
+20:23:11 INFO  Thread-4 9585 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,412903429132535,412936596529076),-1,1)
+20:23:11 INFO  Thread-0 9585 ParaDispatcher$:69 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,412903429132535,412936596529076),-1,1)
+20:23:11 INFO  Thread-1 9706 Relay:76 - reply connection accepted from host 148.100.167.159
+20:23:11 INFO  Thread-1 9706 Relay:73 - waiting to accept reply connection on port = 8004
+20:23:11 INFO  Thread-5 9706 Ice:40 - ice started (id=22)
+20:23:11 INFO  Thread-5 9707 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,412903561613312,412937341544970),-1,1)
+20:23:11 INFO  Thread-5 9707 Ice:49 - actor handler = ParaDispatcher (id=11)
+20:23:11 INFO  Thread-5 9707 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,412903561613312,412937341544970),-1,1)
+20:23:11 INFO  Thread-0 9707 ParaDispatcher$:69 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,412903561613312,412937341544970),-1,1)
+20:37:04 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+20:37:04 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+20:37:04 INFO  Thread-1 5 Remote:54 - waiting to accept connection on port 8000
+20:37:04 INFO  Thread-3 6 Remote:54 - waiting to accept connection on port 9000
+20:37:05 INFO  Thread-2 284 ParaWorker$:49 - started ParaWorker (id=13)
+20:37:05 INFO  Thread-0 284 ParaWorker$:49 - started ParaWorker (id=11)
+20:37:09 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+20:37:09 INFO  main 14 Relay:62 - listening for replies on 148.100.167.159:8004
+20:37:09 INFO  main 14 Relay:57 - relaying all messages to localhost:9000
+20:37:09 INFO  main 14 Relay:62 - listening for replies on 148.100.167.159:9005
+20:37:09 INFO  Thread-1 396 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+20:37:09 INFO  Thread-1 399 Relay:73 - waiting to accept reply connection on port = 8004
+20:37:09 INFO  Thread-2 522 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+20:37:09 INFO  Thread-2 522 Relay:73 - waiting to accept reply connection on port = 9005
+20:37:09 INFO  Thread-0 821 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+20:37:09 INFO  Thread-1 4988 Remote:57 - got connection from 127.0.0.1
+20:37:09 INFO  Thread-1 4990 Remote:54 - waiting to accept connection on port 8000
+20:37:09 INFO  Thread-4 4990 Ice:40 - ice started (id=17)
+20:37:09 INFO  Thread-0 836 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+20:37:09 INFO  Thread-0 837 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+20:37:09 INFO  Thread-3 5003 Remote:57 - got connection from 127.0.0.1
+20:37:09 INFO  Thread-0 838 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0) to localhost:9000
+20:37:09 INFO  Thread-3 5003 Remote:54 - waiting to accept connection on port 9000
+20:37:09 INFO  Thread-5 5004 Ice:40 - ice started (id=18)
+20:37:09 INFO  Thread-4 5040 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+20:37:09 INFO  Thread-5 5040 Ice:48 - received inbound message = Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+20:37:09 INFO  Thread-4 5040 Ice:49 - actor handler = ParaWorker (id=11)
+20:37:09 INFO  Thread-5 5040 Ice:49 - actor handler = ParaWorker (id=13)
+20:37:09 INFO  Thread-4 5042 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+20:37:09 INFO  Thread-5 5042 Ice:53 - successfully relayed Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+20:37:18 INFO  Thread-2 9685 Relay:76 - reply connection accepted from host 148.100.167.159
+20:37:18 INFO  Thread-2 9686 Relay:73 - waiting to accept reply connection on port = 9005
+20:37:18 INFO  Thread-4 9686 Ice:40 - ice started (id=21)
+20:37:18 INFO  Thread-4 9695 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,413750702869618,413786885406189),-1,1)
+20:37:18 INFO  Thread-4 9696 Ice:49 - actor handler = ParaDispatcher (id=11)
+20:37:18 INFO  Thread-4 9697 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,413750702869618,413786885406189),-1,1)
+20:37:18 INFO  Thread-0 9697 ParaDispatcher$:69 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,413750702869618,413786885406189),-1,1)
+20:37:19 INFO  Thread-1 10105 Relay:76 - reply connection accepted from host 148.100.167.159
+20:37:19 INFO  Thread-1 10105 Relay:73 - waiting to accept reply connection on port = 8004
+20:37:19 INFO  Thread-5 10105 Ice:40 - ice started (id=22)
+20:37:19 INFO  Thread-5 10106 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,413751124879702,413781186260302),-1,1)
+20:37:19 INFO  Thread-5 10106 Ice:49 - actor handler = ParaDispatcher (id=11)
+20:37:19 INFO  Thread-5 10106 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,413751124879702,413781186260302),-1,1)
+20:37:19 INFO  Thread-0 10106 ParaDispatcher$:69 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,413751124879702,413781186260302),-1,1)
+20:37:56 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+20:37:56 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+20:37:56 INFO  Thread-1 4 Remote:54 - waiting to accept connection on port 8000
+20:37:56 INFO  Thread-3 5 Remote:54 - waiting to accept connection on port 9000
+20:37:56 INFO  Thread-0 268 ParaWorker$:49 - started ParaWorker (id=11)
+20:37:56 INFO  Thread-2 268 ParaWorker$:49 - started ParaWorker (id=13)
+20:38:00 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+20:38:00 INFO  main 12 Relay:62 - listening for replies on 148.100.167.159:8004
+20:38:00 INFO  main 12 Relay:57 - relaying all messages to localhost:9000
+20:38:00 INFO  main 13 Relay:62 - listening for replies on 148.100.167.159:9005
+20:38:00 INFO  Thread-1 399 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+20:38:01 INFO  Thread-1 404 Relay:73 - waiting to accept reply connection on port = 8004
+20:38:01 INFO  Thread-2 522 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+20:38:01 INFO  Thread-2 522 Relay:73 - waiting to accept reply connection on port = 9005
+20:38:01 INFO  Thread-0 747 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+20:38:01 INFO  Thread-1 4641 Remote:57 - got connection from 127.0.0.1
+20:38:01 INFO  Thread-1 4641 Remote:54 - waiting to accept connection on port 8000
+20:38:01 INFO  Thread-4 4642 Ice:40 - ice started (id=17)
+20:38:01 INFO  Thread-0 758 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+20:38:01 INFO  Thread-0 758 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+20:38:01 INFO  Thread-3 4651 Remote:57 - got connection from 127.0.0.1
+20:38:01 INFO  Thread-3 4651 Remote:54 - waiting to accept connection on port 9000
+20:38:01 INFO  Thread-0 759 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0) to localhost:9000
+20:38:01 INFO  Thread-5 4651 Ice:40 - ice started (id=18)
+20:38:01 INFO  Thread-4 4683 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+20:38:01 INFO  Thread-5 4683 Ice:48 - received inbound message = Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+20:38:01 INFO  Thread-4 4683 Ice:49 - actor handler = ParaWorker (id=11)
+20:38:01 INFO  Thread-5 4683 Ice:49 - actor handler = ParaWorker (id=13)
+20:38:01 INFO  Thread-4 4685 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+20:38:01 INFO  Thread-5 4685 Ice:53 - successfully relayed Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+21:18:03 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+21:18:03 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+21:18:03 INFO  Thread-1 6 Remote:54 - waiting to accept connection on port 8000
+21:18:03 INFO  Thread-3 7 Remote:54 - waiting to accept connection on port 9000
+21:18:03 INFO  Thread-0 270 ParaWorker$:49 - started ParaWorker (id=11)
+21:18:03 INFO  Thread-2 270 ParaWorker$:49 - started ParaWorker (id=13)
+21:18:07 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+21:18:07 INFO  main 17 Relay:62 - listening for replies on 148.100.167.159:8004
+21:18:07 INFO  main 17 Relay:57 - relaying all messages to localhost:9000
+21:18:07 INFO  main 17 Relay:62 - listening for replies on 148.100.167.159:9005
+21:18:08 INFO  Thread-1 396 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+21:18:08 INFO  Thread-1 400 Relay:73 - waiting to accept reply connection on port = 8004
+21:18:08 INFO  Thread-2 525 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+21:18:08 INFO  Thread-2 525 Relay:73 - waiting to accept reply connection on port = 9005
+21:18:08 INFO  Thread-0 740 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+21:18:08 INFO  Thread-1 5378 Remote:57 - got connection from 127.0.0.1
+21:18:08 INFO  Thread-1 5379 Remote:54 - waiting to accept connection on port 8000
+21:18:08 INFO  Thread-4 5379 Ice:40 - ice started (id=17)
+21:18:08 INFO  Thread-0 750 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+21:18:08 INFO  Thread-0 750 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+21:18:08 INFO  Thread-3 5388 Remote:57 - got connection from 127.0.0.1
+21:18:08 INFO  Thread-0 751 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0) to localhost:9000
+21:18:08 INFO  Thread-3 5388 Remote:54 - waiting to accept connection on port 9000
+21:18:08 INFO  Thread-5 5388 Ice:40 - ice started (id=18)
+21:18:08 INFO  Thread-5 5415 Ice:48 - received inbound message = Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+21:18:08 INFO  Thread-4 5415 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+21:18:08 INFO  Thread-5 5415 Ice:49 - actor handler = ParaWorker (id=13)
+21:18:08 INFO  Thread-4 5416 Ice:49 - actor handler = ParaWorker (id=11)
+21:18:08 INFO  Thread-4 5418 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+21:18:08 INFO  Thread-5 5418 Ice:53 - successfully relayed Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+21:19:06 INFO  Thread-1 59125 Relay:76 - reply connection accepted from host 148.100.167.159
+21:19:06 INFO  Thread-1 59126 Relay:73 - waiting to accept reply connection on port = 8004
+21:19:06 INFO  Thread-4 59126 Ice:40 - ice started (id=21)
+21:19:06 INFO  Thread-4 59131 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,416258950021984,416491107375767),-1,1)
+21:19:06 INFO  Thread-4 59132 Ice:49 - actor handler = ParaDispatcher (id=11)
+21:19:06 INFO  Thread-4 59133 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,416258950021984,416491107375767),-1,1)
+21:19:06 INFO  Thread-0 59133 ParaDispatcher$:69 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,416258950021984,416491107375767),-1,1)
+21:19:09 INFO  Thread-2 62053 Relay:76 - reply connection accepted from host 148.100.167.159
+21:19:09 INFO  Thread-2 62054 Relay:73 - waiting to accept reply connection on port = 9005
+21:19:09 INFO  Thread-5 62054 Ice:40 - ice started (id=22)
+21:19:09 INFO  Thread-5 62055 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,416261880060578,416501921979374),-1,1)
+21:19:09 INFO  Thread-5 62055 Ice:49 - actor handler = ParaDispatcher (id=11)
+21:19:09 INFO  Thread-5 62056 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,416261880060578,416501921979374),-1,1)
+21:19:09 INFO  Thread-0 62056 ParaDispatcher$:69 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,416261880060578,416501921979374),-1,1)
+21:22:07 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+21:22:07 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+21:22:07 INFO  Thread-3 4 Remote:54 - waiting to accept connection on port 9000
+21:22:07 INFO  Thread-1 5 Remote:54 - waiting to accept connection on port 8000
+21:22:07 INFO  Thread-2 271 ParaWorker$:49 - started ParaWorker (id=13)
+21:22:07 INFO  Thread-0 271 ParaWorker$:49 - started ParaWorker (id=11)
+21:22:11 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+21:22:11 INFO  main 9 Relay:62 - listening for replies on 148.100.167.159:8004
+21:22:11 INFO  main 10 Relay:57 - relaying all messages to localhost:9000
+21:22:11 INFO  main 10 Relay:62 - listening for replies on 148.100.167.159:9005
+21:22:11 INFO  Thread-1 408 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+21:22:11 INFO  Thread-1 410 Relay:73 - waiting to accept reply connection on port = 8004
+21:22:11 INFO  Thread-2 518 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+21:22:11 INFO  Thread-2 519 Relay:73 - waiting to accept reply connection on port = 9005
+21:22:13 INFO  Thread-0 2112 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+21:22:13 INFO  Thread-1 6129 Remote:57 - got connection from 127.0.0.1
+21:22:13 INFO  Thread-1 6130 Remote:54 - waiting to accept connection on port 8000
+21:22:13 INFO  Thread-4 6130 Ice:40 - ice started (id=17)
+21:22:13 INFO  Thread-0 2122 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+21:22:13 INFO  Thread-0 2122 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+21:22:13 INFO  Thread-3 6137 Remote:57 - got connection from 127.0.0.1
+21:22:13 INFO  Thread-0 2123 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0) to localhost:9000
+21:22:13 INFO  Thread-3 6138 Remote:54 - waiting to accept connection on port 9000
+21:22:13 INFO  Thread-5 6138 Ice:40 - ice started (id=18)
+21:22:13 INFO  Thread-5 6164 Ice:48 - received inbound message = Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+21:22:13 INFO  Thread-4 6164 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+21:22:13 INFO  Thread-5 6164 Ice:49 - actor handler = ParaWorker (id=13)
+21:22:13 INFO  Thread-4 6165 Ice:49 - actor handler = ParaWorker (id=11)
+21:22:13 INFO  Thread-4 6166 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+21:22:13 INFO  Thread-5 6166 Ice:53 - successfully relayed Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+21:23:06 INFO  Thread-2 54771 Relay:76 - reply connection accepted from host 148.100.167.159
+21:23:06 INFO  Thread-2 54771 Relay:73 - waiting to accept reply connection on port = 9005
+21:23:06 INFO  Thread-4 54772 Ice:40 - ice started (id=21)
+21:23:06 INFO  Thread-4 54777 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,416498171799134,416707411805342),-1,1)
+21:23:06 INFO  Thread-4 54778 Ice:49 - actor handler = ParaDispatcher (id=11)
+21:23:06 INFO  Thread-4 54779 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,416498171799134,416707411805342),-1,1)
+21:23:06 INFO  Thread-0 54779 ParaDispatcher$:69 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,416498171799134,416707411805342),-1,1)
+21:23:17 INFO  Thread-1 66382 Relay:76 - reply connection accepted from host 148.100.167.159
+21:23:17 INFO  Thread-1 66382 Relay:73 - waiting to accept reply connection on port = 8004
+21:23:17 INFO  Thread-5 66382 Ice:40 - ice started (id=22)
+21:23:17 INFO  Thread-5 66383 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,416509784691219,416711874757656),-1,1)
+21:23:17 INFO  Thread-5 66384 Ice:49 - actor handler = ParaDispatcher (id=11)
+21:23:17 INFO  Thread-5 66384 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,416509784691219,416711874757656),-1,1)
+21:23:17 INFO  Thread-0 66384 ParaDispatcher$:69 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,416509784691219,416711874757656),-1,1)
+21:35:42 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+21:35:42 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+21:35:42 INFO  Thread-1 5 Remote:54 - waiting to accept connection on port 8000
+21:35:42 INFO  Thread-3 5 Remote:54 - waiting to accept connection on port 9000
+21:35:42 INFO  Thread-0 270 ParaWorker$:49 - started ParaWorker (id=11)
+21:35:42 INFO  Thread-2 270 ParaWorker$:49 - started ParaWorker (id=13)
+21:36:20 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+21:36:20 INFO  main 15 Relay:62 - listening for replies on 148.100.167.159:8004
+21:36:20 INFO  main 16 Relay:57 - relaying all messages to 10.64.149.184:9000
+21:36:20 INFO  main 16 Relay:62 - listening for replies on 148.100.167.159:9005
+21:36:21 INFO  Thread-1 419 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+21:36:21 INFO  Thread-1 433 Relay:73 - waiting to accept reply connection on port = 8004
+21:36:21 INFO  Thread-2 520 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+21:36:21 INFO  Thread-2 521 Relay:73 - waiting to accept reply connection on port = 9005
+21:36:22 INFO  Thread-0 2056 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+21:36:22 INFO  Thread-1 40823 Remote:57 - got connection from 127.0.0.1
+21:36:22 INFO  Thread-1 40823 Remote:54 - waiting to accept connection on port 8000
+21:36:22 INFO  Thread-4 40824 Ice:40 - ice started (id=17)
+21:36:22 INFO  Thread-0 2065 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+21:36:22 INFO  Thread-0 2065 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+21:36:22 INFO  Thread-0 2068 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0) to 10.64.149.184:9000
+21:36:22 INFO  Thread-4 40854 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+21:36:22 INFO  Thread-4 40854 Ice:49 - actor handler = ParaWorker (id=11)
+21:36:22 INFO  Thread-4 40856 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+21:37:05 INFO  Thread-1 44583 Relay:76 - reply connection accepted from host 148.100.167.159
+21:37:05 INFO  Thread-1 44584 Relay:73 - waiting to accept reply connection on port = 8004
+21:37:05 INFO  Thread-4 44584 Ice:40 - ice started (id=21)
+21:37:05 INFO  Thread-4 44589 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,417337535721695,417665576782028),-1,1)
+21:37:05 INFO  Thread-4 44590 Ice:49 - actor handler = ParaDispatcher (id=11)
+21:37:05 INFO  Thread-4 44591 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,417337535721695,417665576782028),-1,1)
+21:37:05 INFO  Thread-0 44591 ParaDispatcher$:69 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,417337535721695,417665576782028),-1,1)
+21:37:22 INFO  Thread-2 61734 Relay:76 - reply connection accepted from host 10.64.149.184
+21:37:22 INFO  Thread-2 61734 Relay:73 - waiting to accept reply connection on port = 9005
+21:37:22 INFO  Thread-5 61734 Ice:40 - ice started (id=22)
+21:37:22 INFO  Thread-5 61737 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,99163984329481,99399578525343),-1,1)
+21:37:22 INFO  Thread-5 61737 Ice:49 - actor handler = ParaDispatcher (id=11)
+21:37:22 INFO  Thread-5 61737 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,99163984329481,99399578525343),-1,1)
+21:37:22 INFO  Thread-0 61737 ParaDispatcher$:69 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,99163984329481,99399578525343),-1,1)
+21:49:13 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+21:49:13 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+21:49:13 INFO  Thread-3 5 Remote:54 - waiting to accept connection on port 9000
+21:49:13 INFO  Thread-1 6 Remote:54 - waiting to accept connection on port 8000
+21:49:13 INFO  Thread-0 275 ParaWorker$:49 - started ParaWorker (id=11)
+21:49:13 INFO  Thread-2 275 ParaWorker$:49 - started ParaWorker (id=13)
+21:49:19 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+21:49:19 INFO  main 13 Relay:62 - listening for replies on 148.100.167.159:8004
+21:49:19 INFO  main 14 Relay:57 - relaying all messages to 10.64.149.184:9000
+21:49:19 INFO  main 14 Relay:62 - listening for replies on 148.100.167.159:9005
+21:49:20 INFO  Thread-1 390 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+21:49:20 INFO  Thread-1 392 Relay:73 - waiting to accept reply connection on port = 8004
+21:49:20 INFO  Thread-2 522 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+21:49:20 INFO  Thread-2 523 Relay:73 - waiting to accept reply connection on port = 9005
+21:52:30 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+21:52:30 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+21:52:30 INFO  Thread-1 4 Remote:54 - waiting to accept connection on port 8000
+21:52:30 INFO  Thread-3 5 Remote:54 - waiting to accept connection on port 9000
+21:52:30 INFO  Thread-0 267 ParaWorker$:49 - started ParaWorker (id=11)
+21:52:30 INFO  Thread-2 267 ParaWorker$:49 - started ParaWorker (id=13)
+21:52:38 INFO  main 1 Relay:57 - relaying all messages to localhost:8000
+21:52:38 INFO  main 11 Relay:62 - listening for replies on 148.100.167.159:8004
+21:52:38 INFO  main 11 Relay:57 - relaying all messages to 10.64.149.184:9000
+21:52:38 INFO  main 11 Relay:62 - listening for replies on 148.100.167.159:9005
+21:52:38 INFO  Thread-1 400 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+21:52:38 INFO  Thread-1 403 Relay:73 - waiting to accept reply connection on port = 8004
+21:52:39 INFO  Thread-2 522 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+21:52:39 INFO  Thread-2 522 Relay:73 - waiting to accept reply connection on port = 9005
+21:52:40 INFO  Thread-0 2282 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+21:52:40 INFO  Thread-1 10548 Remote:57 - got connection from 127.0.0.1
+21:52:40 INFO  Thread-1 10549 Remote:54 - waiting to accept connection on port 8000
+21:52:40 INFO  Thread-4 10549 Ice:40 - ice started (id=17)
+21:52:40 INFO  Thread-0 2291 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+21:52:40 INFO  Thread-0 2292 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+21:52:40 INFO  Thread-0 2294 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0) to 10.64.149.184:9000
+21:52:40 INFO  Thread-4 10582 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+21:52:40 INFO  Thread-4 10582 Ice:49 - actor handler = ParaWorker (id=11)
+21:52:40 INFO  Thread-4 10583 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+21:53:19 INFO  Thread-1 40628 Relay:76 - reply connection accepted from host 148.100.167.159
+21:53:19 INFO  Thread-1 40628 Relay:73 - waiting to accept reply connection on port = 8004
+21:53:19 INFO  Thread-4 40629 Ice:40 - ice started (id=21)
+21:53:19 INFO  Thread-4 40634 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,418311243568701,418605989949045),-1,1)
+21:53:19 INFO  Thread-4 40635 Ice:49 - actor handler = ParaDispatcher (id=11)
+21:53:19 INFO  Thread-4 40636 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,418311243568701,418605989949045),-1,1)
+21:53:19 INFO  Thread-0 40636 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,418311243568701,418605989949045),-1,1)
+21:53:37 INFO  Thread-2 58755 Relay:76 - reply connection accepted from host 10.64.149.184
+21:53:37 INFO  Thread-2 58756 Relay:73 - waiting to accept reply connection on port = 9005
+21:53:37 INFO  Thread-5 58756 Ice:40 - ice started (id=22)
+21:53:37 INFO  Thread-5 58758 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,100138556053831,100360658488669),-1,1)
+21:53:37 INFO  Thread-5 58758 Ice:49 - actor handler = ParaDispatcher (id=11)
+21:53:37 INFO  Thread-5 58758 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,100138556053831,100360658488669),-1,1)
+21:53:37 INFO  Thread-0 58758 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,100138556053831,100360658488669),-1,1)
+21:56:44 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+21:56:44 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+21:56:44 INFO  Thread-1 4 Remote:54 - waiting to accept connection on port 8000
+21:56:44 INFO  Thread-3 5 Remote:54 - waiting to accept connection on port 9000
+21:56:44 INFO  Thread-0 276 ParaWorker$:49 - started ParaWorker (id=11)
+21:56:44 INFO  Thread-2 276 ParaWorker$:49 - started ParaWorker (id=13)
+21:57:30 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+21:57:30 INFO  main 15 Relay:62 - listening for replies on 148.100.167.159:8004
+21:57:30 INFO  main 15 Relay:57 - relaying all messages to 10.64.149.184:9000
+21:57:30 INFO  main 15 Relay:62 - listening for replies on 148.100.167.159:9005
+21:57:31 INFO  Thread-1 414 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+21:57:31 INFO  Thread-1 416 Relay:73 - waiting to accept reply connection on port = 8004
+21:57:31 INFO  Thread-2 520 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+21:57:31 INFO  Thread-2 520 Relay:73 - waiting to accept reply connection on port = 9005
+21:59:40 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+21:59:40 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+21:59:40 INFO  Thread-1 5 Remote:54 - waiting to accept connection on port 8000
+21:59:40 INFO  Thread-3 6 Remote:54 - waiting to accept connection on port 9000
+21:59:41 INFO  Thread-0 281 ParaWorker$:49 - started ParaWorker (id=11)
+21:59:41 INFO  Thread-2 281 ParaWorker$:49 - started ParaWorker (id=13)
+21:59:46 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+21:59:46 INFO  main 13 Relay:62 - listening for replies on 148.100.167.159:8004
+21:59:46 INFO  main 13 Relay:57 - relaying all messages to 10.64.149.184:9000
+21:59:46 INFO  main 14 Relay:62 - listening for replies on 148.100.167.159:9005
+21:59:46 INFO  Thread-1 378 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+21:59:46 INFO  Thread-1 381 Relay:73 - waiting to accept reply connection on port = 8004
+21:59:47 INFO  Thread-2 519 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+21:59:47 INFO  Thread-2 519 Relay:73 - waiting to accept reply connection on port = 9005
+21:59:48 INFO  Thread-0 2139 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+21:59:48 INFO  Thread-1 7750 Remote:57 - got connection from 127.0.0.1
+21:59:48 INFO  Thread-1 7751 Remote:54 - waiting to accept connection on port 8000
+21:59:48 INFO  Thread-4 7751 Ice:40 - ice started (id=17)
+21:59:48 INFO  Thread-0 2149 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+21:59:48 INFO  Thread-0 2149 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+21:59:48 INFO  Thread-0 2151 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0) to 10.64.149.184:9000
+21:59:48 INFO  Thread-4 7785 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+21:59:48 INFO  Thread-4 7785 Ice:49 - actor handler = ParaWorker (id=11)
+21:59:48 INFO  Thread-4 7787 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:00:28 INFO  Thread-1 42138 Relay:76 - reply connection accepted from host 148.100.167.159
+22:00:28 INFO  Thread-1 42138 Relay:73 - waiting to accept reply connection on port = 8004
+22:00:28 INFO  Thread-4 42139 Ice:40 - ice started (id=21)
+22:00:28 INFO  Thread-4 42144 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,418740866724959,419023030506868),-1,1)
+22:00:28 INFO  Thread-4 42145 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:00:28 INFO  Thread-4 42146 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,418740866724959,419023030506868),-1,1)
+22:00:28 INFO  Thread-0 42146 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,418740866724959,419023030506868),-1,1)
+22:00:44 INFO  Thread-2 58077 Relay:76 - reply connection accepted from host 10.64.149.184
+22:00:44 INFO  Thread-2 58078 Relay:73 - waiting to accept reply connection on port = 9005
+22:00:44 INFO  Thread-5 58078 Ice:40 - ice started (id=22)
+22:00:44 INFO  Thread-5 58080 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,100566042865515,100786503871581),-1,1)
+22:00:44 INFO  Thread-5 58080 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:00:44 INFO  Thread-5 58081 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,100566042865515,100786503871581),-1,1)
+22:00:44 INFO  Thread-0 58081 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,100566042865515,100786503871581),-1,1)
+22:05:52 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+22:05:52 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+22:05:52 INFO  Thread-1 4 Remote:54 - waiting to accept connection on port 8000
+22:05:52 INFO  Thread-3 5 Remote:54 - waiting to accept connection on port 9000
+22:05:52 INFO  Thread-2 280 ParaWorker$:49 - started ParaWorker (id=13)
+22:05:52 INFO  Thread-0 280 ParaWorker$:49 - started ParaWorker (id=11)
+22:05:55 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+22:05:55 INFO  main 21 Relay:62 - listening for replies on 148.100.167.159:8004
+22:05:55 INFO  main 32 Relay:57 - relaying all messages to 10.64.149.184:9000
+22:05:55 INFO  main 32 Relay:62 - listening for replies on 148.100.167.159:9005
+22:05:55 INFO  Thread-1 379 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+22:05:55 INFO  Thread-1 382 Relay:73 - waiting to accept reply connection on port = 8004
+22:05:56 INFO  Thread-2 541 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+22:05:56 INFO  Thread-2 541 Relay:73 - waiting to accept reply connection on port = 9005
+22:05:57 INFO  Thread-0 2097 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:05:57 INFO  Thread-1 5422 Remote:57 - got connection from 127.0.0.1
+22:05:57 INFO  Thread-1 5423 Remote:54 - waiting to accept connection on port 8000
+22:05:57 INFO  Thread-4 5423 Ice:40 - ice started (id=17)
+22:05:57 INFO  Thread-0 2106 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+22:05:57 INFO  Thread-0 2107 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+22:05:57 INFO  Thread-0 2109 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0) to 10.64.149.184:9000
+22:05:57 INFO  Thread-4 5455 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:05:57 INFO  Thread-4 5455 Ice:49 - actor handler = ParaWorker (id=11)
+22:05:57 INFO  Thread-4 5457 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:06:38 INFO  Thread-1 43021 Relay:76 - reply connection accepted from host 148.100.167.159
+22:06:38 INFO  Thread-1 43022 Relay:73 - waiting to accept reply connection on port = 8004
+22:06:38 INFO  Thread-4 43022 Ice:40 - ice started (id=21)
+22:06:38 INFO  Thread-4 43028 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,419110674325228,419429907328409),-1,1)
+22:06:38 INFO  Thread-4 43029 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:06:38 INFO  Thread-4 43029 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,419110674325228,419429907328409),-1,1)
+22:06:38 INFO  Thread-0 43029 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,419110674325228,419429907328409),-1,1)
+22:06:53 INFO  Thread-2 58183 Relay:76 - reply connection accepted from host 10.64.149.184
+22:06:53 INFO  Thread-2 58184 Relay:73 - waiting to accept reply connection on port = 9005
+22:06:53 INFO  Thread-5 58184 Ice:40 - ice started (id=22)
+22:06:53 INFO  Thread-5 58186 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,100935061047269,101156202892282),-1,1)
+22:06:53 INFO  Thread-5 58187 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:06:53 INFO  Thread-5 58187 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,100935061047269,101156202892282),-1,1)
+22:06:53 INFO  Thread-0 58187 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,100935061047269,101156202892282),-1,1)
+22:08:20 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+22:08:20 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+22:08:20 INFO  Thread-3 4 Remote:54 - waiting to accept connection on port 9000
+22:08:20 INFO  Thread-1 5 Remote:54 - waiting to accept connection on port 8000
+22:08:20 INFO  Thread-0 270 ParaWorker$:49 - started ParaWorker (id=11)
+22:08:20 INFO  Thread-2 270 ParaWorker$:49 - started ParaWorker (id=13)
+22:08:23 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+22:08:23 INFO  main 10 Relay:62 - listening for replies on 148.100.167.159:8004
+22:08:23 INFO  main 10 Relay:57 - relaying all messages to 10.64.149.184:9000
+22:08:23 INFO  main 11 Relay:62 - listening for replies on 148.100.167.159:9005
+22:08:23 INFO  Thread-1 405 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+22:08:23 INFO  Thread-1 406 Relay:73 - waiting to accept reply connection on port = 8004
+22:08:23 INFO  Thread-2 513 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+22:08:23 INFO  Thread-2 514 Relay:73 - waiting to accept reply connection on port = 9005
+22:08:25 INFO  Thread-0 2161 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:08:25 INFO  Thread-1 4984 Remote:57 - got connection from 127.0.0.1
+22:08:25 INFO  Thread-1 4985 Remote:54 - waiting to accept connection on port 8000
+22:08:25 INFO  Thread-4 4986 Ice:40 - ice started (id=17)
+22:08:25 INFO  Thread-0 2172 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+22:08:25 INFO  Thread-0 2172 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+22:08:25 INFO  Thread-0 2174 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0) to 10.64.149.184:9000
+22:08:25 INFO  Thread-4 5019 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:08:25 INFO  Thread-4 5020 Ice:49 - actor handler = ParaWorker (id=11)
+22:08:25 INFO  Thread-4 5022 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:09:03 INFO  Thread-1 40758 Relay:76 - reply connection accepted from host 148.100.167.159
+22:09:03 INFO  Thread-1 40759 Relay:73 - waiting to accept reply connection on port = 8004
+22:09:03 INFO  Thread-4 40759 Ice:40 - ice started (id=21)
+22:09:03 INFO  Thread-4 40765 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,419256105647745,419555671524410),-1,1)
+22:09:03 INFO  Thread-4 40765 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:09:03 INFO  Thread-4 40766 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,419256105647745,419555671524410),-1,1)
+22:09:03 INFO  Thread-0 40766 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,419256105647745,419555671524410),-1,1)
+22:09:21 INFO  Thread-2 58807 Relay:76 - reply connection accepted from host 10.64.149.184
+22:09:21 INFO  Thread-2 58807 Relay:73 - waiting to accept reply connection on port = 9005
+22:09:21 INFO  Thread-5 58807 Ice:40 - ice started (id=22)
+22:09:21 INFO  Thread-5 58809 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,101083307089299,101305689831651),-1,1)
+22:09:21 INFO  Thread-5 58810 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:09:21 INFO  Thread-5 58810 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,101083307089299,101305689831651),-1,1)
+22:09:21 INFO  Thread-0 58810 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,101083307089299,101305689831651),-1,1)
+22:10:07 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+22:10:07 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+22:10:07 INFO  Thread-3 4 Remote:54 - waiting to accept connection on port 9000
+22:10:07 INFO  Thread-1 5 Remote:54 - waiting to accept connection on port 8000
+22:10:07 INFO  Thread-0 274 ParaWorker$:49 - started ParaWorker (id=11)
+22:10:07 INFO  Thread-2 274 ParaWorker$:49 - started ParaWorker (id=13)
+22:10:15 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+22:10:15 INFO  main 12 Relay:62 - listening for replies on 148.100.167.159:8004
+22:10:15 INFO  main 12 Relay:57 - relaying all messages to 10.64.149.184:9000
+22:10:15 INFO  main 12 Relay:62 - listening for replies on 148.100.167.159:9005
+22:10:15 INFO  Thread-1 405 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+22:10:15 INFO  Thread-1 408 Relay:73 - waiting to accept reply connection on port = 8004
+22:10:15 INFO  Thread-2 517 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+22:10:15 INFO  Thread-2 518 Relay:73 - waiting to accept reply connection on port = 9005
+22:10:17 INFO  Thread-0 2078 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:10:17 INFO  Thread-1 10010 Remote:57 - got connection from 127.0.0.1
+22:10:17 INFO  Thread-1 10011 Remote:54 - waiting to accept connection on port 8000
+22:10:17 INFO  Thread-4 10011 Ice:40 - ice started (id=17)
+22:10:17 INFO  Thread-0 2088 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+22:10:17 INFO  Thread-0 2088 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+22:10:17 INFO  Thread-0 2090 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0) to 10.64.149.184:9000
+22:10:17 INFO  Thread-4 10045 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:10:17 INFO  Thread-4 10046 Ice:49 - actor handler = ParaWorker (id=11)
+22:10:17 INFO  Thread-4 10048 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:10:58 INFO  Thread-1 42824 Relay:76 - reply connection accepted from host 148.100.167.159
+22:10:58 INFO  Thread-1 42825 Relay:73 - waiting to accept reply connection on port = 8004
+22:10:58 INFO  Thread-4 42825 Ice:40 - ice started (id=21)
+22:10:58 INFO  Thread-4 42830 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,419370278320694,419657170217762),-1,1)
+22:10:58 INFO  Thread-4 42831 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:10:58 INFO  Thread-4 42832 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,419370278320694,419657170217762),-1,1)
+22:10:58 INFO  Thread-0 42832 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,419370278320694,419657170217762),-1,1)
+22:11:13 INFO  Thread-2 58253 Relay:76 - reply connection accepted from host 10.64.149.184
+22:11:13 INFO  Thread-2 58254 Relay:73 - waiting to accept reply connection on port = 9005
+22:11:13 INFO  Thread-5 58254 Ice:40 - ice started (id=22)
+22:11:13 INFO  Thread-5 58257 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,101195024604523,101416983548008),-1,1)
+22:11:13 INFO  Thread-5 58258 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:11:13 INFO  Thread-5 58258 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,101195024604523,101416983548008),-1,1)
+22:11:13 INFO  Thread-0 58258 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,101195024604523,101416983548008),-1,1)
+22:16:03 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+22:16:03 INFO  main 22 Relay:62 - listening for replies on 148.100.167.159:8004
+22:16:03 INFO  main 23 Relay:57 - relaying all messages to 10.64.149.184:9000
+22:16:03 INFO  main 23 Relay:62 - listening for replies on 148.100.167.159:9005
+22:16:04 INFO  Thread-1 362 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+22:16:04 INFO  Thread-1 365 Relay:73 - waiting to accept reply connection on port = 8004
+22:16:04 INFO  Thread-2 528 Relay:69 - relay daemon started id = 14 for callback actor ParaDispatcher (id=11)
+22:16:04 INFO  Thread-2 528 Relay:73 - waiting to accept reply connection on port = 9005
+22:16:06 INFO  Thread-0 2102 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:16:06 INFO  Thread-1 358717 Remote:57 - got connection from 127.0.0.1
+22:16:06 INFO  Thread-1 358717 Remote:54 - waiting to accept connection on port 8000
+22:16:06 INFO  Thread-6 358718 Ice:40 - ice started (id=31)
+22:16:06 INFO  Thread-0 2113 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+22:16:06 INFO  Thread-0 2113 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+22:16:06 INFO  Thread-6 358725 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:16:06 INFO  Thread-6 358726 Ice:49 - actor handler = ParaWorker (id=11)
+22:16:06 INFO  Thread-6 358726 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:16:06 INFO  Thread-0 2116 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0) to 10.64.149.184:9000
+22:16:45 INFO  Thread-1 41510 Relay:76 - reply connection accepted from host 148.100.167.159
+22:16:45 INFO  Thread-1 41511 Relay:73 - waiting to accept reply connection on port = 8004
+22:16:45 INFO  Thread-4 41512 Ice:40 - ice started (id=21)
+22:16:45 INFO  Thread-4 41518 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,419717661943723,419999093549882),-1,1)
+22:16:45 INFO  Thread-4 41519 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:16:45 INFO  Thread-4 41520 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,419717661943723,419999093549882),-1,1)
+22:16:45 INFO  Thread-0 41520 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,419717661943723,419999093549882),-1,1)
+22:17:01 INFO  Thread-2 57591 Relay:76 - reply connection accepted from host 10.64.149.184
+22:17:01 INFO  Thread-2 57592 Relay:73 - waiting to accept reply connection on port = 9005
+22:17:01 INFO  Thread-5 57592 Ice:40 - ice started (id=22)
+22:17:01 INFO  Thread-5 57594 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,101542977985628,101761974807767),-1,1)
+22:17:01 INFO  Thread-5 57594 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:17:01 INFO  Thread-5 57595 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,101542977985628,101761974807767),-1,1)
+22:17:01 INFO  Thread-0 57595 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,101542977985628,101761974807767),-1,1)
+22:18:14 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+22:18:14 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+22:18:14 INFO  Thread-1 5 Remote:54 - waiting to accept connection on port 8000
+22:18:14 INFO  Thread-3 6 Remote:54 - waiting to accept connection on port 9000
+22:18:14 INFO  Thread-2 274 ParaWorker$:49 - started ParaWorker (id=13)
+22:18:14 INFO  Thread-0 274 ParaWorker$:49 - started ParaWorker (id=11)
+22:18:18 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+22:18:18 INFO  main 15 Relay:62 - listening for replies on 148.100.167.159:8004
+22:18:18 INFO  main 16 Relay:57 - relaying all messages to 10.64.149.184:9000
+22:18:18 INFO  main 16 Relay:62 - listening for replies on 148.100.167.159:9005
+22:18:18 INFO  Thread-1 362 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+22:18:18 INFO  Thread-1 365 Relay:73 - waiting to accept reply connection on port = 8004
+22:18:19 INFO  Thread-2 523 Relay:69 - relay daemon started id = 14 for callback actor ParaDispatcher (id=11)
+22:18:19 INFO  Thread-2 524 Relay:73 - waiting to accept reply connection on port = 9005
+22:18:20 INFO  Thread-0 2237 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:18:20 INFO  Thread-1 6341 Remote:57 - got connection from 127.0.0.1
+22:18:20 INFO  Thread-1 6342 Remote:54 - waiting to accept connection on port 8000
+22:18:20 INFO  Thread-4 6342 Ice:40 - ice started (id=17)
+22:18:20 INFO  Thread-0 2246 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+22:18:20 INFO  Thread-0 2247 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+22:18:20 INFO  Thread-0 2249 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0) to 10.64.149.184:9000
+22:18:20 INFO  Thread-4 6377 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:18:20 INFO  Thread-4 6377 Ice:49 - actor handler = ParaWorker (id=11)
+22:18:20 INFO  Thread-4 6379 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+22:19:01 INFO  Thread-1 42605 Relay:76 - reply connection accepted from host 148.100.167.159
+22:19:01 INFO  Thread-1 42606 Relay:73 - waiting to accept reply connection on port = 8004
+22:19:01 INFO  Thread-4 42606 Ice:40 - ice started (id=21)
+22:19:01 INFO  Thread-4 42612 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,419853373835539,420161145119745),-1,1)
+22:19:01 INFO  Thread-4 42613 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:19:01 INFO  Thread-4 42614 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,419853373835539,420161145119745),-1,1)
+22:19:01 INFO  Thread-0 42614 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,419853373835539,420161145119745),-1,1)
+22:19:17 INFO  Thread-2 58454 Relay:76 - reply connection accepted from host 10.64.149.184
+22:19:17 INFO  Thread-2 58454 Relay:73 - waiting to accept reply connection on port = 9005
+22:19:17 INFO  Thread-5 58455 Ice:40 - ice started (id=22)
+22:19:17 INFO  Thread-5 58457 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,101678359108569,101899244769417),-1,1)
+22:19:17 INFO  Thread-5 58457 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:19:17 INFO  Thread-5 58457 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,101678359108569,101899244769417),-1,1)
+22:19:17 INFO  Thread-0 58457 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,101678359108569,101899244769417),-1,1)
+22:19:22 INFO  Thread-0 63713 Relay:99 - relaying Partition(1000,0,0,true,100000) as Task(148.100.167.159:8004,Partition(1000,0,0,true,100000),11,0)
+22:19:22 INFO  Thread-1 67817 Remote:57 - got connection from 127.0.0.1
+22:19:22 INFO  Thread-1 67817 Remote:54 - waiting to accept connection on port 8000
+22:19:22 INFO  Thread-0 63714 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(1000,0,0,true,100000),11,0) to localhost:8000
+22:19:22 INFO  Thread-0 63714 Relay:99 - relaying Partition(1000,1000,0,true,100000) as Task(148.100.167.159:9005,Partition(1000,1000,0,true,100000),11,0)
+22:19:22 INFO  Thread-6 67817 Ice:40 - ice started (id=31)
+22:19:22 INFO  Thread-6 67818 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(1000,0,0,true,100000),11,0)
+22:19:22 INFO  Thread-6 67819 Ice:49 - actor handler = ParaWorker (id=11)
+22:19:22 INFO  Thread-6 67819 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(1000,0,0,true,100000),11,0)
+22:19:22 INFO  Thread-0 63717 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(1000,1000,0,true,100000),11,0) to 10.64.149.184:9000
+22:20:48 INFO  Thread-1 149864 Relay:76 - reply connection accepted from host 148.100.167.159
+22:20:48 INFO  Thread-1 149864 Relay:73 - waiting to accept reply connection on port = 8004
+22:20:48 INFO  Thread-6 149865 Ice:40 - ice started (id=23)
+22:20:48 INFO  Thread-6 149865 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,419960638667226,420588222081720),-1,1)
+22:20:48 INFO  Thread-6 149866 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:20:48 INFO  Thread-6 149866 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,419960638667226,420588222081720),-1,1)
+22:20:48 INFO  Thread-0 149866 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,419960638667226,420588222081720),-1,1)
+22:21:31 INFO  Thread-2 192603 Relay:76 - reply connection accepted from host 10.64.149.184
+22:21:31 INFO  Thread-2 192603 Relay:73 - waiting to accept reply connection on port = 9005
+22:21:31 INFO  Thread-7 192603 Ice:40 - ice started (id=24)
+22:21:31 INFO  Thread-7 192604 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,101812536430715,102262151982676),-1,1)
+22:21:31 INFO  Thread-7 192605 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:21:31 INFO  Thread-7 192605 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,101812536430715,102262151982676),-1,1)
+22:21:31 INFO  Thread-0 192605 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,101812536430715,102262151982676),-1,1)
+22:21:42 INFO  Thread-0 203728 Relay:99 - relaying Partition(2000,0,0,true,100000) as Task(148.100.167.159:8004,Partition(2000,0,0,true,100000),11,0)
+22:21:42 INFO  Thread-1 207833 Remote:57 - got connection from 127.0.0.1
+22:21:42 INFO  Thread-0 203730 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(2000,0,0,true,100000),11,0) to localhost:8000
+22:21:42 INFO  Thread-1 207834 Remote:54 - waiting to accept connection on port 8000
+22:21:42 INFO  Thread-7 207834 Ice:40 - ice started (id=36)
+22:21:42 INFO  Thread-0 203731 Relay:99 - relaying Partition(2000,2000,0,true,100000) as Task(148.100.167.159:9005,Partition(2000,2000,0,true,100000),11,0)
+22:21:42 INFO  Thread-7 207835 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(2000,0,0,true,100000),11,0)
+22:21:42 INFO  Thread-7 207835 Ice:49 - actor handler = ParaWorker (id=11)
+22:21:42 INFO  Thread-7 207835 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(2000,0,0,true,100000),11,0)
+22:21:42 INFO  Thread-0 203733 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(2000,2000,0,true,100000),11,0) to 10.64.149.184:9000
+22:24:28 INFO  Thread-1 370360 Relay:76 - reply connection accepted from host 148.100.167.159
+22:24:28 INFO  Thread-1 370361 Relay:73 - waiting to accept reply connection on port = 8004
+22:24:28 INFO  Thread-8 370361 Ice:40 - ice started (id=25)
+22:24:28 INFO  Thread-8 370362 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,420181139065663,421282818205929),-1,1)
+22:24:28 INFO  Thread-8 370362 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:24:28 INFO  Thread-8 370362 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,420181139065663,421282818205929),-1,1)
+22:24:28 INFO  Thread-0 370362 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,420181139065663,421282818205929),-1,1)
+22:25:49 INFO  Thread-2 450549 Relay:76 - reply connection accepted from host 10.64.149.184
+22:25:49 INFO  Thread-2 450550 Relay:73 - waiting to accept reply connection on port = 9005
+22:25:49 INFO  Thread-9 450550 Ice:40 - ice started (id=26)
+22:25:49 INFO  Thread-9 450550 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,102070436764381,102926794239407),-1,1)
+22:25:49 INFO  Thread-9 450550 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:25:49 INFO  Thread-9 450550 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,102070436764381,102926794239407),-1,1)
+22:25:49 INFO  Thread-0 450550 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,102070436764381,102926794239407),-1,1)
+22:26:08 INFO  Thread-0 469532 Relay:99 - relaying Partition(4000,0,0,true,100000) as Task(148.100.167.159:8004,Partition(4000,0,0,true,100000),11,0)
+22:26:08 INFO  Thread-1 473636 Remote:57 - got connection from 127.0.0.1
+22:26:08 INFO  Thread-0 469534 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(4000,0,0,true,100000),11,0) to localhost:8000
+22:26:08 INFO  Thread-1 473637 Remote:54 - waiting to accept connection on port 8000
+22:26:08 INFO  Thread-8 473637 Ice:40 - ice started (id=43)
+22:26:08 INFO  Thread-0 469534 Relay:99 - relaying Partition(4000,4000,0,true,100000) as Task(148.100.167.159:9005,Partition(4000,4000,0,true,100000),11,0)
+22:26:08 INFO  Thread-8 473638 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(4000,0,0,true,100000),11,0)
+22:26:08 INFO  Thread-8 473638 Ice:49 - actor handler = ParaWorker (id=11)
+22:26:08 INFO  Thread-8 473638 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(4000,0,0,true,100000),11,0)
+22:26:08 INFO  Thread-0 469536 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(4000,4000,0,true,100000),11,0) to 10.64.149.184:9000
+22:31:11 INFO  Thread-1 772655 Relay:76 - reply connection accepted from host 148.100.167.159
+22:31:11 INFO  Thread-1 772656 Relay:73 - waiting to accept reply connection on port = 8004
+22:31:11 INFO  Thread-10 772656 Ice:40 - ice started (id=27)
+22:31:11 INFO  Thread-10 772656 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,420583450106689,422981559210151),-1,1)
+22:31:11 INFO  Thread-10 772657 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:31:11 INFO  Thread-10 772657 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,420583450106689,422981559210151),-1,1)
+22:31:11 INFO  Thread-0 772657 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,420583450106689,422981559210151),-1,1)
+22:33:31 INFO  Thread-2 913059 Relay:76 - reply connection accepted from host 10.64.149.184
+22:33:31 INFO  Thread-2 913064 Relay:73 - waiting to accept reply connection on port = 9005
+22:33:31 INFO  Thread-11 913064 Ice:40 - ice started (id=28)
+22:33:31 INFO  Thread-11 913066 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,102533090372389,104300708608472),-1,1)
+22:33:31 INFO  Thread-11 913066 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:33:31 INFO  Thread-11 913066 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,102533090372389,104300708608472),-1,1)
+22:33:31 INFO  Thread-0 913066 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,102533090372389,104300708608472),-1,1)
+22:34:10 INFO  Thread-0 952268 Relay:99 - relaying Partition(8000,0,0,true,100000) as Task(148.100.167.159:8004,Partition(8000,0,0,true,100000),11,0)
+22:34:10 INFO  Thread-1 956372 Remote:57 - got connection from 127.0.0.1
+22:34:10 INFO  Thread-0 952270 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(8000,0,0,true,100000),11,0) to localhost:8000
+22:34:10 INFO  Thread-1 956373 Remote:54 - waiting to accept connection on port 8000
+22:34:10 INFO  Thread-9 956373 Ice:40 - ice started (id=52)
+22:34:10 INFO  Thread-0 952270 Relay:99 - relaying Partition(8000,8000,0,true,100000) as Task(148.100.167.159:9005,Partition(8000,8000,0,true,100000),11,0)
+22:34:10 INFO  Thread-9 956374 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(8000,0,0,true,100000),11,0)
+22:34:10 INFO  Thread-9 956374 Ice:49 - actor handler = ParaWorker (id=11)
+22:34:10 INFO  Thread-9 956374 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(8000,0,0,true,100000),11,0)
+22:34:10 INFO  Thread-0 952272 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(8000,8000,0,true,100000),11,0) to 10.64.149.184:9000
+22:45:48 INFO  Thread-1 1649825 Relay:76 - reply connection accepted from host 148.100.167.159
+22:45:48 INFO  Thread-1 1649827 Relay:73 - waiting to accept reply connection on port = 8004
+22:45:48 INFO  Thread-12 1649827 Ice:40 - ice started (id=29)
+22:45:48 INFO  Thread-12 1649828 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,421460654959147,425770635578633),-1,1)
+22:45:48 INFO  Thread-12 1649828 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:45:48 INFO  Thread-12 1649828 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,421460654959147,425770635578633),-1,1)
+22:45:48 INFO  Thread-0 1649828 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,421460654959147,425770635578633),-1,1)
+22:50:52 INFO  Thread-2 1953887 Relay:76 - reply connection accepted from host 10.64.149.184
+22:50:52 INFO  Thread-2 1953887 Relay:73 - waiting to accept reply connection on port = 9005
+22:50:52 INFO  Thread-13 1953887 Ice:40 - ice started (id=30)
+22:50:52 INFO  Thread-13 1953888 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,103573699588186,107000385107641),-1,1)
+22:50:52 INFO  Thread-13 1953889 Ice:49 - actor handler = ParaDispatcher (id=11)
+22:50:52 INFO  Thread-13 1953889 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,103573699588186,107000385107641),-1,1)
+22:50:52 INFO  Thread-0 1953889 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,103573699588186,107000385107641),-1,1)
+22:52:26 INFO  Thread-0 2047636 Relay:99 - relaying Partition(16000,0,0,true,100000) as Task(148.100.167.159:8004,Partition(16000,0,0,true,100000),11,0)
+22:52:26 INFO  Thread-1 2051742 Remote:57 - got connection from 127.0.0.1
+22:52:26 INFO  Thread-0 2047640 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(16000,0,0,true,100000),11,0) to localhost:8000
+22:52:26 INFO  Thread-1 2051743 Remote:54 - waiting to accept connection on port 8000
+22:52:26 INFO  Thread-0 2047640 Relay:99 - relaying Partition(16000,16000,0,true,100000) as Task(148.100.167.159:9005,Partition(16000,16000,0,true,100000),11,0)
+22:52:26 INFO  Thread-10 2051743 Ice:40 - ice started (id=61)
+22:52:26 INFO  Thread-10 2051744 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(16000,0,0,true,100000),11,0)
+22:52:26 INFO  Thread-10 2051744 Ice:49 - actor handler = ParaWorker (id=11)
+22:52:26 INFO  Thread-10 2051745 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(16000,0,0,true,100000),11,0)
+22:52:26 INFO  Thread-0 2047643 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(16000,16000,0,true,100000),11,0) to 10.64.149.184:9000
+22:57:39 INFO  Thread-3 2365466 Remote:57 - got connection from 172.104.84.223
+22:57:39 INFO  Thread-3 2365467 Remote:54 - waiting to accept connection on port 9000
+22:57:39 INFO  Thread-11 2365467 Ice:40 - ice started (id=70)
+23:13:38 INFO  Thread-1 3319878 Relay:76 - reply connection accepted from host 148.100.167.159
+23:13:38 INFO  Thread-1 3319881 Relay:73 - waiting to accept reply connection on port = 8004
+23:13:38 INFO  Thread-14 3319881 Ice:40 - ice started (id=31)
+23:13:38 INFO  Thread-14 3319881 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,423130776467725,432265885093334),-1,1)
+23:13:38 INFO  Thread-14 3319881 Ice:49 - actor handler = ParaDispatcher (id=11)
+23:13:38 INFO  Thread-14 3319882 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,423130776467725,432265885093334),-1,1)
+23:13:38 INFO  Thread-0 3319882 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,423130776467725,432265885093334),-1,1)
+23:21:40 INFO  Thread-2 3802311 Relay:76 - reply connection accepted from host 10.64.149.184
+23:21:40 INFO  Thread-2 3802311 Relay:73 - waiting to accept reply connection on port = 9005
+23:21:40 INFO  Thread-15 3802311 Ice:40 - ice started (id=32)
+23:21:40 INFO  Thread-15 3802312 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,105422102685077,112417056703272),-1,1)
+23:21:40 INFO  Thread-15 3802313 Ice:49 - actor handler = ParaDispatcher (id=11)
+23:21:40 INFO  Thread-15 3802313 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,105422102685077,112417056703272),-1,1)
+23:21:40 INFO  Thread-0 3802313 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,105422102685077,112417056703272),-1,1)
+23:24:28 INFO  Thread-0 3969990 Relay:99 - relaying Partition(32000,0,0,true,100000) as Task(148.100.167.159:8004,Partition(32000,0,0,true,100000),11,0)
+23:24:28 INFO  Thread-1 3974097 Remote:57 - got connection from 127.0.0.1
+23:24:28 INFO  Thread-0 3969995 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(32000,0,0,true,100000),11,0) to localhost:8000
+23:24:28 INFO  Thread-1 3974098 Remote:54 - waiting to accept connection on port 8000
+23:24:28 INFO  Thread-12 3974098 Ice:40 - ice started (id=71)
+23:24:28 INFO  Thread-0 3969995 Relay:99 - relaying Partition(32000,32000,0,true,100000) as Task(148.100.167.159:9005,Partition(32000,32000,0,true,100000),11,0)
+23:24:28 INFO  Thread-12 3974099 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(32000,0,0,true,100000),11,0)
+23:24:28 INFO  Thread-12 3974099 Ice:49 - actor handler = ParaWorker (id=11)
+23:24:28 INFO  Thread-12 3974099 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(32000,0,0,true,100000),11,0)
+23:24:28 INFO  Thread-0 3969997 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(32000,32000,0,true,100000),11,0) to 10.64.149.184:9000
+00:22:04 INFO  Thread-2 7425856 Relay:76 - reply connection accepted from host 10.64.149.184
+00:22:04 INFO  Thread-2 7425858 Relay:73 - waiting to accept reply connection on port = 9005
+00:22:04 INFO  Thread-16 7425858 Ice:40 - ice started (id=33)
+00:22:04 INFO  Thread-16 7425859 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,109045738945415,122842961357285),-1,1)
+00:22:04 INFO  Thread-16 7425859 Ice:49 - actor handler = ParaDispatcher (id=11)
+00:22:04 INFO  Thread-16 7425859 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,109045738945415,122842961357285),-1,1)
+00:22:04 INFO  Thread-0 7425859 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,109045738945415,122842961357285),-1,1)
+00:27:21 INFO  Thread-1 7743078 Relay:76 - reply connection accepted from host 148.100.167.159
+00:27:21 INFO  Thread-1 7743079 Relay:73 - waiting to accept reply connection on port = 8004
+00:27:21 INFO  Thread-17 7743079 Ice:40 - ice started (id=34)
+00:27:21 INFO  Thread-17 7743079 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,427554157435029,444890418886914),-1,1)
+00:27:21 INFO  Thread-17 7743080 Ice:49 - actor handler = ParaDispatcher (id=11)
+00:27:21 INFO  Thread-17 7743080 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,427554157435029,444890418886914),-1,1)
+00:27:21 INFO  Thread-0 7743080 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,427554157435029,444890418886914),-1,1)
+00:32:15 INFO  Thread-0 8037287 Relay:99 - relaying Partition(50000,0,0,true,100000) as Task(148.100.167.159:8004,Partition(50000,0,0,true,100000),11,0)
+00:32:15 INFO  Thread-1 8041392 Remote:57 - got connection from 127.0.0.1
+00:32:15 INFO  Thread-0 8037290 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(50000,0,0,true,100000),11,0) to localhost:8000
+00:32:15 INFO  Thread-1 8041393 Remote:54 - waiting to accept connection on port 8000
+00:32:15 INFO  Thread-0 8037290 Relay:99 - relaying Partition(50000,50000,0,true,100000) as Task(148.100.167.159:9005,Partition(50000,50000,0,true,100000),11,0)
+00:32:15 INFO  Thread-13 8041393 Ice:40 - ice started (id=80)
+00:32:15 INFO  Thread-13 8041394 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(50000,0,0,true,100000),11,0)
+00:32:15 INFO  Thread-13 8041394 Ice:49 - actor handler = ParaWorker (id=11)
+00:32:15 INFO  Thread-13 8041395 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(50000,0,0,true,100000),11,0)
+00:32:15 INFO  Thread-0 8037293 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(50000,50000,0,true,100000),11,0) to 10.64.149.184:9000
+01:54:48 INFO  Thread-1 12989664 Relay:76 - reply connection accepted from host 148.100.167.159
+01:54:48 INFO  Thread-1 12989666 Relay:73 - waiting to accept reply connection on port = 8004
+01:54:48 INFO  Thread-18 12989666 Ice:40 - ice started (id=35)
+01:54:48 INFO  Thread-18 12989667 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,432800960038976,462272293529831),-1,1)
+01:54:48 INFO  Thread-18 12989667 Ice:49 - actor handler = ParaDispatcher (id=11)
+01:54:48 INFO  Thread-18 12989668 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,432800960038976,462272293529831),-1,1)
+01:54:48 INFO  Thread-0 12989668 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,432800960038976,462272293529831),-1,1)
+02:14:25 INFO  Thread-2 14167046 Relay:76 - reply connection accepted from host 10.64.149.184
+02:14:25 INFO  Thread-2 14167047 Relay:73 - waiting to accept reply connection on port = 9005
+02:14:25 INFO  Thread-19 14167047 Ice:40 - ice started (id=36)
+02:14:25 INFO  Thread-19 14167049 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,115786586119361,138470291651726),-1,1)
+02:14:25 INFO  Thread-19 14167049 Ice:49 - actor handler = ParaDispatcher (id=11)
+02:14:25 INFO  Thread-19 14167049 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,115786586119361,138470291651726),-1,1)
+02:14:25 INFO  Thread-0 14167050 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,115786586119361,138470291651726),-1,1)
+02:35:56 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+02:35:56 INFO  main 23 Relay:62 - listening for replies on 148.100.167.159:8004
+02:35:56 INFO  main 23 Relay:57 - relaying all messages to 10.64.149.184:9000
+02:35:56 INFO  main 23 Relay:62 - listening for replies on 148.100.167.159:9005
+02:35:56 INFO  Thread-1 407 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+02:35:56 INFO  Thread-1 409 Relay:73 - waiting to accept reply connection on port = 8004
+02:35:56 INFO  Thread-2 532 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+02:35:56 INFO  Thread-2 532 Relay:73 - waiting to accept reply connection on port = 9005
+02:35:58 INFO  Thread-0 2447 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+02:37:55 INFO  Thread-1 0 Remote:50 - remote daemon id = 12 for call-forward actor ParaWorker (id=11) port = 8000
+02:37:55 INFO  Thread-3 0 Remote:50 - remote daemon id = 14 for call-forward actor ParaWorker (id=13) port = 9000
+02:37:55 INFO  Thread-1 5 Remote:54 - waiting to accept connection on port 8000
+02:37:55 INFO  Thread-3 6 Remote:54 - waiting to accept connection on port 9000
+02:37:55 INFO  Thread-0 276 ParaWorker$:49 - started ParaWorker (id=11)
+02:37:55 INFO  Thread-2 276 ParaWorker$:49 - started ParaWorker (id=13)
+02:38:35 INFO  main 0 Relay:57 - relaying all messages to localhost:8000
+02:38:35 INFO  main 16 Relay:62 - listening for replies on 148.100.167.159:8004
+02:38:35 INFO  main 17 Relay:57 - relaying all messages to 10.64.149.184:9000
+02:38:35 INFO  main 17 Relay:62 - listening for replies on 148.100.167.159:9005
+02:38:35 INFO  Thread-1 388 Relay:69 - relay daemon started id = 12 for callback actor ParaDispatcher (id=11)
+02:38:35 INFO  Thread-1 390 Relay:73 - waiting to accept reply connection on port = 8004
+02:38:35 INFO  Thread-2 523 Relay:69 - relay daemon started id = 13 for callback actor ParaDispatcher (id=11)
+02:38:35 INFO  Thread-2 523 Relay:73 - waiting to accept reply connection on port = 9005
+02:38:37 INFO  Thread-0 2278 Relay:99 - relaying Partition(500,0,0,true,100000) as Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+02:38:37 INFO  Thread-1 41729 Remote:57 - got connection from 127.0.0.1
+02:38:37 INFO  Thread-1 41730 Remote:54 - waiting to accept connection on port 8000
+02:38:37 INFO  Thread-4 41730 Ice:40 - ice started (id=17)
+02:38:37 INFO  Thread-0 2291 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0) to localhost:8000
+02:38:37 INFO  Thread-0 2291 Relay:99 - relaying Partition(500,500,0,true,100000) as Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0)
+02:38:37 INFO  Thread-0 2294 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(500,500,0,true,100000),11,0) to 10.64.149.184:9000
+02:38:37 INFO  Thread-4 41766 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+02:38:37 INFO  Thread-4 41766 Ice:49 - actor handler = ParaWorker (id=11)
+02:38:37 INFO  Thread-4 41768 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(500,0,0,true,100000),11,0)
+02:39:22 INFO  Thread-1 47188 Relay:76 - reply connection accepted from host 148.100.167.159
+02:39:22 INFO  Thread-1 47189 Relay:73 - waiting to accept reply connection on port = 8004
+02:39:22 INFO  Thread-4 47189 Ice:40 - ice started (id=21)
+02:39:22 INFO  Thread-4 47194 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,435475176748039,435824277226442),-1,1)
+02:39:22 INFO  Thread-4 47195 Ice:49 - actor handler = ParaDispatcher (id=11)
+02:39:22 INFO  Thread-4 47195 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,435475176748039,435824277226442),-1,1)
+02:39:22 INFO  Thread-0 47196 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,435475176748039,435824277226442),-1,1)
+02:39:36 INFO  Thread-2 61760 Relay:76 - reply connection accepted from host 10.64.149.184
+02:39:36 INFO  Thread-2 61760 Relay:73 - waiting to accept reply connection on port = 9005
+02:39:36 INFO  Thread-5 61760 Ice:40 - ice started (id=22)
+02:39:36 INFO  Thread-5 61762 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,117298035786385,117532961590734),-1,1)
+02:39:36 INFO  Thread-5 61762 Ice:49 - actor handler = ParaDispatcher (id=11)
+02:39:36 INFO  Thread-5 61763 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,117298035786385,117532961590734),-1,1)
+02:39:36 INFO  Thread-0 61763 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,117298035786385,117532961590734),-1,1)
+02:39:43 INFO  Thread-0 68088 Relay:99 - relaying Partition(1000,0,0,true,100000) as Task(148.100.167.159:8004,Partition(1000,0,0,true,100000),11,0)
+02:39:43 INFO  Thread-1 107538 Remote:57 - got connection from 127.0.0.1
+02:39:43 INFO  Thread-0 68090 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(1000,0,0,true,100000),11,0) to localhost:8000
+02:39:43 INFO  Thread-1 107538 Remote:54 - waiting to accept connection on port 8000
+02:39:43 INFO  Thread-0 68090 Relay:99 - relaying Partition(1000,1000,0,true,100000) as Task(148.100.167.159:9005,Partition(1000,1000,0,true,100000),11,0)
+02:39:43 INFO  Thread-6 107538 Ice:40 - ice started (id=31)
+02:39:43 INFO  Thread-6 107539 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(1000,0,0,true,100000),11,0)
+02:39:43 INFO  Thread-6 107540 Ice:49 - actor handler = ParaWorker (id=11)
+02:39:43 INFO  Thread-0 68092 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(1000,1000,0,true,100000),11,0) to 10.64.149.184:9000
+02:39:43 INFO  Thread-6 107541 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(1000,0,0,true,100000),11,0)
+02:41:04 INFO  Thread-1 149493 Relay:76 - reply connection accepted from host 148.100.167.159
+02:41:04 INFO  Thread-1 149493 Relay:73 - waiting to accept reply connection on port = 8004
+02:41:04 INFO  Thread-6 149494 Ice:40 - ice started (id=23)
+02:41:04 INFO  Thread-6 149494 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,435577487595547,436216062157527),-1,1)
+02:41:04 INFO  Thread-6 149495 Ice:49 - actor handler = ParaDispatcher (id=11)
+02:41:04 INFO  Thread-6 149495 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,435577487595547,436216062157527),-1,1)
+02:41:04 INFO  Thread-0 149495 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,435577487595547,436216062157527),-1,1)
+02:41:42 INFO  Thread-2 187021 Relay:76 - reply connection accepted from host 10.64.149.184
+02:41:42 INFO  Thread-2 187021 Relay:73 - waiting to accept reply connection on port = 9005
+02:41:42 INFO  Thread-7 187021 Ice:40 - ice started (id=24)
+02:41:42 INFO  Thread-7 187022 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,117423103867873,117893132289606),-1,1)
+02:41:42 INFO  Thread-7 187022 Ice:49 - actor handler = ParaDispatcher (id=11)
+02:41:42 INFO  Thread-0 187022 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,117423103867873,117893132289606),-1,1)
+02:41:42 INFO  Thread-7 187022 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,117423103867873,117893132289606),-1,1)
+02:41:55 INFO  Thread-0 200108 Relay:99 - relaying Partition(2000,0,0,true,100000) as Task(148.100.167.159:8004,Partition(2000,0,0,true,100000),11,0)
+02:41:55 INFO  Thread-1 239557 Remote:57 - got connection from 127.0.0.1
+02:41:55 INFO  Thread-0 200109 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(2000,0,0,true,100000),11,0) to localhost:8000
+02:41:55 INFO  Thread-1 239558 Remote:54 - waiting to accept connection on port 8000
+02:41:55 INFO  Thread-0 200110 Relay:99 - relaying Partition(2000,2000,0,true,100000) as Task(148.100.167.159:9005,Partition(2000,2000,0,true,100000),11,0)
+02:41:55 INFO  Thread-7 239558 Ice:40 - ice started (id=36)
+02:41:55 INFO  Thread-7 239559 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(2000,0,0,true,100000),11,0)
+02:41:55 INFO  Thread-7 239559 Ice:49 - actor handler = ParaWorker (id=11)
+02:41:55 INFO  Thread-7 239559 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(2000,0,0,true,100000),11,0)
+02:41:55 INFO  Thread-0 200113 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(2000,2000,0,true,100000),11,0) to 10.64.149.184:9000
+02:44:42 INFO  Thread-1 367162 Relay:76 - reply connection accepted from host 148.100.167.159
+02:44:42 INFO  Thread-1 367163 Relay:73 - waiting to accept reply connection on port = 8004
+02:44:42 INFO  Thread-8 367163 Ice:40 - ice started (id=25)
+02:44:42 INFO  Thread-8 367164 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,435795165898067,437114638669062),-1,1)
+02:44:42 INFO  Thread-8 367164 Ice:49 - actor handler = ParaDispatcher (id=11)
+02:44:42 INFO  Thread-8 367164 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,435795165898067,437114638669062),-1,1)
+02:44:42 INFO  Thread-0 367164 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,435795165898067,437114638669062),-1,1)
+02:45:51 INFO  Thread-2 435936 Relay:76 - reply connection accepted from host 10.64.149.184
+02:45:51 INFO  Thread-2 435937 Relay:73 - waiting to accept reply connection on port = 9005
+02:45:51 INFO  Thread-9 435937 Ice:40 - ice started (id=26)
+02:45:51 INFO  Thread-9 435938 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,117672205949202,118612168977761),-1,1)
+02:45:51 INFO  Thread-9 435938 Ice:49 - actor handler = ParaDispatcher (id=11)
+02:45:51 INFO  Thread-9 435939 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,117672205949202,118612168977761),-1,1)
+02:45:51 INFO  Thread-0 435939 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,117672205949202,118612168977761),-1,1)
+02:46:14 INFO  Thread-0 459299 Relay:99 - relaying Partition(4000,0,0,true,100000) as Task(148.100.167.159:8004,Partition(4000,0,0,true,100000),11,0)
+02:46:14 INFO  Thread-1 498749 Remote:57 - got connection from 127.0.0.1
+02:46:14 INFO  Thread-0 459301 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(4000,0,0,true,100000),11,0) to localhost:8000
+02:46:14 INFO  Thread-1 498749 Remote:54 - waiting to accept connection on port 8000
+02:46:14 INFO  Thread-8 498749 Ice:40 - ice started (id=43)
+02:46:14 INFO  Thread-0 459301 Relay:99 - relaying Partition(4000,4000,0,true,100000) as Task(148.100.167.159:9005,Partition(4000,4000,0,true,100000),11,0)
+02:46:14 INFO  Thread-8 498750 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(4000,0,0,true,100000),11,0)
+02:46:14 INFO  Thread-8 498750 Ice:49 - actor handler = ParaWorker (id=11)
+02:46:14 INFO  Thread-8 498750 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(4000,0,0,true,100000),11,0)
+02:46:14 INFO  Thread-0 459304 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(4000,4000,0,true,100000),11,0) to 10.64.149.184:9000
+02:51:39 INFO  Thread-1 784352 Relay:76 - reply connection accepted from host 148.100.167.159
+02:51:39 INFO  Thread-1 784352 Relay:73 - waiting to accept reply connection on port = 8004
+02:51:39 INFO  Thread-10 784353 Ice:40 - ice started (id=27)
+02:51:39 INFO  Thread-10 784353 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,436212373033863,438793779902822),-1,1)
+02:51:39 INFO  Thread-10 784353 Ice:49 - actor handler = ParaDispatcher (id=11)
+02:51:39 INFO  Thread-10 784354 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,436212373033863,438793779902822),-1,1)
+02:51:39 INFO  Thread-0 784354 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,436212373033863,438793779902822),-1,1)
+02:54:03 INFO  Thread-2 928742 Relay:76 - reply connection accepted from host 10.64.149.184
+02:54:03 INFO  Thread-2 928743 Relay:73 - waiting to accept reply connection on port = 9005
+02:54:03 INFO  Thread-11 928743 Ice:40 - ice started (id=28)
+02:54:03 INFO  Thread-11 928744 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,118165001623577,120037194562018),-1,1)
+02:54:03 INFO  Thread-11 928744 Ice:49 - actor handler = ParaDispatcher (id=11)
+02:54:03 INFO  Thread-11 928744 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,118165001623577,120037194562018),-1,1)
+02:54:03 INFO  Thread-0 928744 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,118165001623577,120037194562018),-1,1)
+02:54:59 INFO  Thread-0 984648 Relay:99 - relaying Partition(8000,0,0,true,100000) as Task(148.100.167.159:8004,Partition(8000,0,0,true,100000),11,0)
+02:54:59 INFO  Thread-1 1024100 Remote:57 - got connection from 127.0.0.1
+02:54:59 INFO  Thread-0 984652 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(8000,0,0,true,100000),11,0) to localhost:8000
+02:54:59 INFO  Thread-1 1024100 Remote:54 - waiting to accept connection on port 8000
+02:54:59 INFO  Thread-9 1024101 Ice:40 - ice started (id=52)
+02:54:59 INFO  Thread-0 984653 Relay:99 - relaying Partition(8000,8000,0,true,100000) as Task(148.100.167.159:9005,Partition(8000,8000,0,true,100000),11,0)
+02:54:59 INFO  Thread-9 1024102 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(8000,0,0,true,100000),11,0)
+02:54:59 INFO  Thread-9 1024102 Ice:49 - actor handler = ParaWorker (id=11)
+02:54:59 INFO  Thread-9 1024102 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(8000,0,0,true,100000),11,0)
+02:54:59 INFO  Thread-0 984655 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(8000,8000,0,true,100000),11,0) to 10.64.149.184:9000
+03:05:53 INFO  Thread-1 1638118 Relay:76 - reply connection accepted from host 148.100.167.159
+03:05:53 INFO  Thread-1 1638120 Relay:73 - waiting to accept reply connection on port = 8004
+03:05:53 INFO  Thread-12 1638120 Ice:40 - ice started (id=29)
+03:05:53 INFO  Thread-12 1638121 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,437066171273097,442268297148446),-1,1)
+03:05:53 INFO  Thread-12 1638121 Ice:49 - actor handler = ParaDispatcher (id=11)
+03:05:53 INFO  Thread-12 1638121 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,437066171273097,442268297148446),-1,1)
+03:05:53 INFO  Thread-0 1638122 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,437066171273097,442268297148446),-1,1)
+03:10:44 INFO  Thread-2 1929360 Relay:76 - reply connection accepted from host 10.64.149.184
+03:10:44 INFO  Thread-2 1929361 Relay:73 - waiting to accept reply connection on port = 9005
+03:10:44 INFO  Thread-13 1929361 Ice:40 - ice started (id=30)
+03:10:44 INFO  Thread-13 1929362 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,119165472200773,122923624350248),-1,1)
+03:10:44 INFO  Thread-13 1929362 Ice:49 - actor handler = ParaDispatcher (id=11)
+03:10:44 INFO  Thread-13 1929362 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,119165472200773,122923624350248),-1,1)
+03:10:44 INFO  Thread-0 1929362 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,119165472200773,122923624350248),-1,1)
+03:12:39 INFO  Thread-0 2044625 Relay:99 - relaying Partition(16000,0,0,true,100000) as Task(148.100.167.159:8004,Partition(16000,0,0,true,100000),11,0)
+03:12:39 INFO  Thread-1 2084075 Remote:57 - got connection from 127.0.0.1
+03:12:39 INFO  Thread-0 2044628 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(16000,0,0,true,100000),11,0) to localhost:8000
+03:12:39 INFO  Thread-1 2084076 Remote:54 - waiting to accept connection on port 8000
+03:12:39 INFO  Thread-0 2044628 Relay:99 - relaying Partition(16000,16000,0,true,100000) as Task(148.100.167.159:9005,Partition(16000,16000,0,true,100000),11,0)
+03:12:39 INFO  Thread-10 2084076 Ice:40 - ice started (id=61)
+03:12:39 INFO  Thread-10 2084077 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(16000,0,0,true,100000),11,0)
+03:12:39 INFO  Thread-10 2084077 Ice:49 - actor handler = ParaWorker (id=11)
+03:12:39 INFO  Thread-10 2084077 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(16000,0,0,true,100000),11,0)
+03:12:39 INFO  Thread-0 2044630 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(16000,16000,0,true,100000),11,0) to 10.64.149.184:9000
+03:34:42 INFO  Thread-1 3366907 Relay:76 - reply connection accepted from host 148.100.167.159
+03:34:42 INFO  Thread-1 3366908 Relay:73 - waiting to accept reply connection on port = 8004
+03:34:42 INFO  Thread-14 3366908 Ice:40 - ice started (id=31)
+03:34:42 INFO  Thread-14 3366909 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,438795030748619,449298986084230),-1,1)
+03:34:42 INFO  Thread-14 3366909 Ice:49 - actor handler = ParaDispatcher (id=11)
+03:34:42 INFO  Thread-14 3366909 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,438795030748619,449298986084230),-1,1)
+03:34:42 INFO  Thread-0 3366909 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,438795030748619,449298986084230),-1,1)
+03:43:53 INFO  Thread-2 3917971 Relay:76 - reply connection accepted from host 10.64.149.184
+03:43:53 INFO  Thread-2 3917973 Relay:73 - waiting to accept reply connection on port = 9005
+03:43:53 INFO  Thread-15 3917974 Ice:40 - ice started (id=32)
+03:43:53 INFO  Thread-15 3917975 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,121154002458623,128620212870795),-1,1)
+03:43:53 INFO  Thread-15 3917975 Ice:49 - actor handler = ParaDispatcher (id=11)
+03:43:53 INFO  Thread-15 3917975 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,121154002458623,128620212870795),-1,1)
+03:43:53 INFO  Thread-0 3917975 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,121154002458623,128620212870795),-1,1)
+03:47:36 INFO  Thread-0 4141429 Relay:99 - relaying Partition(32000,0,0,true,100000) as Task(148.100.167.159:8004,Partition(32000,0,0,true,100000),11,0)
+03:47:36 INFO  Thread-1 4180878 Remote:57 - got connection from 127.0.0.1
+03:47:36 INFO  Thread-0 4141431 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(32000,0,0,true,100000),11,0) to localhost:8000
+03:47:36 INFO  Thread-1 4180879 Remote:54 - waiting to accept connection on port 8000
+03:47:36 INFO  Thread-0 4141431 Relay:99 - relaying Partition(32000,32000,0,true,100000) as Task(148.100.167.159:9005,Partition(32000,32000,0,true,100000),11,0)
+03:47:36 INFO  Thread-11 4180879 Ice:40 - ice started (id=70)
+03:47:36 INFO  Thread-11 4180880 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(32000,0,0,true,100000),11,0)
+03:47:36 INFO  Thread-11 4180880 Ice:49 - actor handler = ParaWorker (id=11)
+03:47:36 INFO  Thread-11 4180880 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(32000,0,0,true,100000),11,0)
+03:47:36 INFO  Thread-0 4141433 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(32000,32000,0,true,100000),11,0) to 10.64.149.184:9000
+04:31:40 INFO  Thread-1 6784875 Relay:76 - reply connection accepted from host 148.100.167.159
+04:31:40 INFO  Thread-1 6784877 Relay:73 - waiting to accept reply connection on port = 8004
+04:31:40 INFO  Thread-16 6784878 Ice:40 - ice started (id=33)
+04:31:40 INFO  Thread-16 6784878 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,442213142939586,463291848027052),-1,1)
+04:31:40 INFO  Thread-16 6784878 Ice:49 - actor handler = ParaDispatcher (id=11)
+04:31:40 INFO  Thread-16 6784879 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,442213142939586,463291848027052),-1,1)
+04:31:40 INFO  Thread-0 6784879 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,442213142939586,463291848027052),-1,1)
+04:50:07 INFO  Thread-2 7892762 Relay:76 - reply connection accepted from host 10.64.149.184
+04:50:07 INFO  Thread-2 7892763 Relay:73 - waiting to accept reply connection on port = 9005
+04:50:07 INFO  Thread-17 7892763 Ice:40 - ice started (id=34)
+04:50:07 INFO  Thread-17 7892764 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,125128678382235,140123611326650),-1,1)
+04:50:07 INFO  Thread-17 7892764 Ice:49 - actor handler = ParaDispatcher (id=11)
+04:50:07 INFO  Thread-17 7892764 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,125128678382235,140123611326650),-1,1)
+04:50:07 INFO  Thread-0 7892764 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,125128678382235,140123611326650),-1,1)
+04:56:43 INFO  Thread-0 8288288 Relay:99 - relaying Partition(50000,0,0,true,100000) as Task(148.100.167.159:8004,Partition(50000,0,0,true,100000),11,0)
+04:56:43 INFO  Thread-1 8327737 Remote:57 - got connection from 127.0.0.1
+04:56:43 INFO  Thread-0 8288290 Relay:113 - successfully sent Task(148.100.167.159:8004,Partition(50000,0,0,true,100000),11,0) to localhost:8000
+04:56:43 INFO  Thread-1 8327738 Remote:54 - waiting to accept connection on port 8000
+04:56:43 INFO  Thread-0 8288290 Relay:99 - relaying Partition(50000,50000,0,true,100000) as Task(148.100.167.159:9005,Partition(50000,50000,0,true,100000),11,0)
+04:56:43 INFO  Thread-12 8327738 Ice:40 - ice started (id=79)
+04:56:43 INFO  Thread-12 8327739 Ice:48 - received inbound message = Task(148.100.167.159:8004,Partition(50000,0,0,true,100000),11,0)
+04:56:43 INFO  Thread-12 8327740 Ice:49 - actor handler = ParaWorker (id=11)
+04:56:43 INFO  Thread-12 8327740 Ice:53 - successfully relayed Task(148.100.167.159:8004,Partition(50000,0,0,true,100000),11,0)
+04:56:43 INFO  Thread-0 8288293 Relay:113 - successfully sent Task(148.100.167.159:9005,Partition(50000,50000,0,true,100000),11,0) to 10.64.149.184:9000
+06:04:43 INFO  Thread-1 12367963 Relay:76 - reply connection accepted from host 148.100.167.159
+06:04:43 INFO  Thread-1 12367964 Relay:73 - waiting to accept reply connection on port = 8004
+06:04:43 INFO  Thread-18 12367964 Ice:40 - ice started (id=35)
+06:04:43 INFO  Thread-18 12367967 Ice:48 - received inbound message = Task(148.100.167.159:0,Result(-1,0.0,0,447796467649532,480354616488396),-1,1)
+06:04:43 INFO  Thread-18 12367967 Ice:49 - actor handler = ParaDispatcher (id=11)
+06:04:43 INFO  Thread-18 12367967 Ice:53 - successfully relayed Task(148.100.167.159:0,Result(-1,0.0,0,447796467649532,480354616488396),-1,1)
+06:04:43 INFO  Thread-0 12367967 ParaDispatcher$:79 - received reply Task(148.100.167.159:0,Result(-1,0.0,0,447796467649532,480354616488396),-1,1)
+06:35:12 INFO  Thread-2 14197343 Relay:76 - reply connection accepted from host 10.64.149.184
+06:35:12 INFO  Thread-2 14197344 Relay:73 - waiting to accept reply connection on port = 9005
+06:35:12 INFO  Thread-19 14197345 Ice:40 - ice started (id=36)
+06:35:12 INFO  Thread-19 14197346 Ice:48 - received inbound message = Task(10.64.149.184:0,Result(-1,0.0,0,131433135405241,155029788834961),-1,1)
+06:35:12 INFO  Thread-19 14197347 Ice:49 - actor handler = ParaDispatcher (id=11)
+06:35:12 INFO  Thread-19 14197347 Ice:53 - successfully relayed Task(10.64.149.184:0,Result(-1,0.0,0,131433135405241,155029788834961),-1,1)
+06:35:12 INFO  Thread-0 14197347 ParaDispatcher$:79 - received reply Task(10.64.149.184:0,Result(-1,0.0,0,131433135405241,155029788834961),-1,1)
+06:51:00 INFO  Thread-1 15185293 Remote:57 - got connection from 71.6.158.166
+06:51:00 INFO  Thread-1 15185296 Remote:54 - waiting to accept connection on port 8000
+06:51:00 INFO  Thread-13 15185296 Ice:40 - ice started (id=88)
